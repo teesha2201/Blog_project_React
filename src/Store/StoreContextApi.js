@@ -513,7 +513,6 @@ const StoreContextApi=(props)=>
         }
         ,
         {
-            // https://assets.telegraphindia.com/telegraph/2022/Jul/1657533674_lead-1.jpg
         id:"69",
         Movie:"Chinese Veg Momos",
         poster:"https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/ritu-arora020180111172007064.jpeg", 
@@ -522,7 +521,6 @@ const StoreContextApi=(props)=>
         }
         ,
         {
-            // https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1i-wmOp748NkwD2a59UxAFVsgC9SVJIjHdg&usqp=CAU
         id:"70",
         Movie:"Sushi Japanese dish ,Sushi is widely available in many countries throughout the globe, and is commonly associated with Japan. ",
         poster:"https://www.shutterstock.com/shutterstock/photos/2287908707/display_1500/stock-photo-sushi-photos-food-photography-asian-kitchen-restaurant-food-menu-photos-sushi-roll-pictures-2287908707.jpg", 

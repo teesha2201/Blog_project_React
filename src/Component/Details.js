@@ -45,19 +45,19 @@ function Details() {
 
         <div className='TextMore'>More From The Siren </div>        
 
-        <div className='bottomparentLatest'>
+        <div className='parentLatest bottomparentLatest'>
             
                                 {contextdata.filter((item )=>(item.Category === dynamicImg) && (item.id%5===1 || item.id%3 === 2 || item.id%3===0)).slice(0,3).map((element,index)=>{
                                 return(
 
-                                    <div className='bottomparentLatest' key={index}>
+                                    <div className='divLatest bottomdivLatest' key={index}>
                                         
-                                            <div className=' bottomparentLatest'>
+                                            <div className=' Coloumnwise bottomColoumnwise'>
                                                 <NavLink to={`/details/${element.id}`}>
-                                                    <img src={element.poster} alt="Not Found" className='bottomimgDivlatest'></img>
+                                                    <img src={element.poster} alt="Not Found" className='imgDivlatest bottomimgDivlatest'></img>
                                                 </NavLink>    
-                                                    <h3 className='bottomimglatestheading'>{element.Movie}</h3>
-                                                    <p className='bottomimglatestdescription'>{element.Heading.slice(0,150)}</p>
+                                                    <h3 className='imglatestheading bottomimglatestheading'>{element.Movie}</h3>
+                                                    <p className='imglatestdescription bottomimglatestdescription'>{element.Heading.slice(0,150)}</p>
                                             </div>
                                             
                                     </div>

@@ -7,10 +7,10 @@ const Bollywood=()=>
 { 
     
     const [contextdata] = useContext(Store)
-    console.log("xyz")
+   
     return(
         <>
-            {/* <div className='textBollywood'>Bollywood</div> */}
+           
             <div className='parentHollywood'>
                 <div className='leftParentHollywood'>
                     <div className='textHollywood'>Bollywood </div>
@@ -19,7 +19,7 @@ const Bollywood=()=>
                             return(
                                 <div className='divHollywood' key={index}>
                                     <NavLink to={`/details/${element.id}`}>
-                                    <img  src={element.poster} alt="Not Found" className='imgHollywoodTop'></img>
+                                    <img  src={element.poster} alt="Not Found" className='imgHollywoodTop'/>
                                     </NavLink>
                                     <div className='divcoloumnHollywood'>
                                         <div className='topHollywoodTitle'>{element.Movie.slice(0,60)}</div>
@@ -43,7 +43,7 @@ const Bollywood=()=>
                                     <div className='divHollywoodright' key={index}>
                                         
                                     <NavLink to={`/details/${element.id}`}>
-                                       <img  src={element.poster} alt="Not Found" className='imgHollyTop'></img>
+                                       <img  src={element.poster} alt="Not Found" className='imgHollyTop'/>
                                     </NavLink>   
                                         <div className='divcoloumnHolly'>
                                             <div className='topHollyTitle'>{element.Movie}
@@ -57,7 +57,7 @@ const Bollywood=()=>
                             })
                         }    
                     </div>
-                    <div className='AdvertismentBollywood'><img src="https://media4.giphy.com/media/tfeBZQCErlj7FantMq/giphy.gif?cid=ecf05e47v29ij31o7ab275ojvc0mlqnj79wrw2hb8otgfxql&ep=v1_gifs_search&rid=giphy.gif&ct=g"></img></div>
+                    <div className='AdvertismentBollywood'><img src="https://media4.giphy.com/media/tfeBZQCErlj7FantMq/giphy.gif?cid=ecf05e47v29ij31o7ab275ojvc0mlqnj79wrw2hb8otgfxql&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Not Found"/></div>
                 </div>
    
             </div>
