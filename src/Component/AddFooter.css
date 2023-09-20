@@ -85,12 +85,12 @@
         gap:10px;
         flex-direction: row;
         justify-content: space-evenly;
-        border: 3px solid lightgreen;
+        /* border: 3px solid lightgreen; */
     }
     .div1Col{
         width:40vw;
         height: auto;
-        border:2px solid blue;
+        /* border:2px solid blue; */
         font-size: 12px;
         text-align: center;
         margin-left: 4vw;
@@ -112,7 +112,7 @@
         height: auto;
         font-size: 12px;
         font-family: 'Times New Roman', Times, serif;
-        border:2px solid green;
+        /* border:2px solid green; */
         display: flex;
         flex-direction: column;
         gap:10px;

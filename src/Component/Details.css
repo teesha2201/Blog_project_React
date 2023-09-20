@@ -106,7 +106,7 @@ body{
 .parentLatest{
     width:88vw;
     min-height: auto;
-    border:2px solid red;
+    /* border:2px solid red; */
     position: relative;
     top:40vh;
     left: 6vw;
@@ -135,7 +135,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border:2px solid green;
+    /* border:2px solid green; */
     
     
 }
@@ -148,7 +148,7 @@ body{
     .mediaParentLatest{
         width:88vw;
         height:auto;
-        /* border:2px solid red; */
+        
         position: relative;
         top:40vh;
         left: 6vw;
@@ -159,21 +159,13 @@ body{
        
     }
     .bottomimgDivlatest{
-        /* position: relative; */
-        width:84vw;
-        /* height:40vh; */
-        /* border:2px solid black; */
-        /* border-radius: 1% ;  */
-        /* box-shadow: 3px 4px 20px  gray; */
-        
+        width:84vw;   
     }
     .bottomimglatestheading{
          position:relative;
         top:1vh; 
         width:80vw;
         height:20vh;
-        /* min-height:6vh; */
-        /* border:2px solid red; */
         padding-top:2vh ;
     }
     .bottomimglatestdescription{
@@ -181,7 +173,6 @@ body{
         top:0vh; 
         width:84vw;
         min-height:auto;
-        /* border:2px solid black; */
         padding: 2vh 0vw;
         font-size:16px;
     }

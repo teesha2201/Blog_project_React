@@ -10,7 +10,7 @@
         position: relative;
         top:25vh;
         left:8vw;
-        border:2px solid black;
+        /* border:2px solid black; */
        
     }
     
@@ -52,7 +52,7 @@
     .mediaParentLatest{
         width:88vw;
         min-height: auto;
-        border:8px solid red;
+        /* border:8px solid red; */
         position: relative;
         top:30vh;
         left: 6vw;
@@ -62,7 +62,7 @@
     .HomeparentLatest{
         width:88vw;
         min-height: auto;
-        border:2px solid red;
+        /* border:2px solid red; */
         position: relative;
         top:40vh;
         left: 6vw;
@@ -96,9 +96,6 @@
    padding: 2vh 0vw;
    font-size:16px;
 }
-    .HomeimgDivlatest{
-
-    }
 
 }
 
