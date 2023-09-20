@@ -43,7 +43,7 @@ function Food()
                                         </NavLink>
                                         <div className='divcoloumnHolly'>
                                             <div className='topHollyTitle'>{element.Movie}
-                                                <h1 className='TopPostIndexing'>{index+1}</h1>
+                                                <h1 className='TopPostindexing'>{index+1}</h1>
                                                 <div style={{color:"lightgray",lineHeight:"5vh"}}>Visited:11 August 2023</div>
                                             </div>
                                         </div>

@@ -9,7 +9,7 @@ import Food from '../Component/Food'
 import Details from '../Component/Details';
 import StoreContextApi from './StoreContextApi';
 
-import "./Style.css"
+
 function   RouteCompo()
 {   
     
@@ -44,6 +44,10 @@ function   RouteCompo()
                     <NavLink className="navlink" to='/Food'>Food</NavLink>
                 </header>
                 </div>
+
+                
+
+
             </BrowserRouter>
 
         </>

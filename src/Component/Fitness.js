@@ -19,8 +19,8 @@ function Fitness()
                                     <img  src={element.poster} alt="Not Found" className='imgHollywoodTop'></img>
                                     <NavLink/>
                                     <div className='divcoloumnHollywood'>
-                                        <div className='topHollywoodTitle'>{element.Movie}</div>
-                                        <div className='topPostHollywood'>{element.Heading.slice(0,150)}.
+                                        <div className='topHollywoodTitle'>{element.Movie.slice(0,34)}</div>
+                                        <div className='topPostHollywood'>{element.Heading.slice(0,100)}.
                                             <div style={{color:"lightgray",lineHeight:"5vh"}}>Visited:11 August 2023</div>
                                         </div>
                                         
@@ -35,7 +35,7 @@ function Fitness()
                 <div className='rightParentHollywood'> 
                     <div className='textToppostHollywood'>Top Post</div>
                     <div className='rightHollywood'>
-                        {contextdata.filter((item)=>item.Category==="Fitness" && item.id>=54 && item.id<=62).map((element,index)=>{
+                        {contextdata.filter((item)=>item.Category==="Fitness" && item.id>=51 && item.id<=64).map((element,index)=>{
                                 return(
                                     <div className='divHollywoodright' key={index}>
                                         <NavLink to={`/details/${element.id}`}></NavLink>
@@ -43,7 +43,7 @@ function Fitness()
                                         <NavLink/>
                                         <div className='divcoloumnHolly'>
                                             <div className='topHollyTitle'>{element.Movie}
-                                                <h1 className='TopPostIndexing'>{index+1}</h1>
+                                                <h1 className='TopPostindexing'>{index+1}</h1>
                                                 <div style={{color:"lightgray",lineHeight:"5vh"}}>Visited:11 August 2023</div>
                                             </div>
                                         </div>
@@ -54,7 +54,8 @@ function Fitness()
 
                         
                     </div>
-                    <div className='Advertisment'>Advertisement</div>
+                    <div className='AdvertismentBollywood'><img src="https://media4.giphy.com/media/tfeBZQCErlj7FantMq/giphy.gif?cid=ecf05e47v29ij31o7ab275ojvc0mlqnj79wrw2hb8otgfxql&ep=v1_gifs_search&rid=giphy.gif&ct=g"></img></div>
+  
                 </div>   
             </div>
 

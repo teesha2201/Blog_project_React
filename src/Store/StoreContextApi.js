@@ -8,8 +8,16 @@ const StoreContextApi=(props)=>
     const [apidata,setApidata] = useState([
 
         {
+            id:"0",
+            Movie:"Raksha Bandhan Movies related to Raksha Bandhan often depict the emotional and heartfelt moments between siblings",
+            poster:"https://www.filmibeat.com/ph-big/2022/06/raksha-bandhan_165580980900.jpg", 
+            Category:"Bollywood" , 
+            Heading:"Movies related to Raksha Bandhan often depict the emotional and heartfelt moments between siblings. These films may explore themes of family, love, and the special bond between brothers and sisters."
+        }
+        ,
+        {
         id:"1",
-        Movie:"SanamRe 'Sanam Re' is known for its soulful songs and picturesque locations.",
+        Movie:"SanamRe 'Sanam Re' is known for its soulful songs and picturesque locations. Throughout the film, there are emotional and heartwarming moments as well as some beautiful music.",
         poster:"https://pbs.twimg.com/media/CifCoiUXAAAS8Al.jpg", 
         Category:"Bollywood" , 
         Heading:"Throughout the film, there are emotional and heartwarming moments as well as some beautiful music that adds to the romantic atmosphere. 'Sanam Re' is known for its soulful songs and picturesque locations."
@@ -23,10 +31,10 @@ const StoreContextApi=(props)=>
         }
         ,
         {id:"3",
-        Movie:"Tamasha",
+        Movie:"Tamasha , Tamasha Isn't What Deepika's Film Was Originally Titled.",
         poster:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI9mFI4euqxz57TI5tHi88klJ1L9UvSWvK83hqjkO8AUHY1hQT1c6av1l7BQXVn0keywA&usqp=CAU",
         Category:"Bollywood" ,
-        Heading:"The film features Ranbir Kapoor as Ved and Deepika Padukone as Tara in the lead roles. 'Tamasha' is a unique and thought-provoking film that explores themes of self-discovery, conformity, and the power of storytelling."
+        Heading:" Tamasha Isn't What Deepika's Film Was Originally Titled. Window Seat was the working title for Tamasha. For Jab We Met, the working title was Train and for Love Aaj Kal, it was Elastic, the 44-year-old director told reporters at the trailer launch of Tamasha.The film features Ranbir Kapoor as Ved and Deepika Padukone as Tara in the lead roles. 'Tamasha' is a unique and thought-provoking film that explores themes of self-discovery, conformity, and the power of storytelling."
         }
         ,
         {id:"4",
@@ -92,7 +100,7 @@ const StoreContextApi=(props)=>
         }
         ,
         {id:"13",
-        Movie:"Hum Saath Saath Hai",
+        Movie:"Hum Saath Saath Hai is known for its portrayal of traditional Indian family values, customs, and rituals.",
         poster:"https://m.media-amazon.com/images/M/MV5BNDdkZTI3OTItM2JlZi00YzRmLTliMTctYTVjZDE3MjNlZTJkXkEyXkFqcGdeQXVyODk2ODI3MTU@._V1_.jpg", 
         Category:"Bollywood" , 
         Heading:"'Hum Saath-Saath Hain' is known for its portrayal of traditional Indian family values, customs, and rituals. It celebrates the importance of family unity and highlights the bonds shared among family members. The film features several melodious songs that have become popular over the years."
@@ -155,14 +163,14 @@ const StoreContextApi=(props)=>
         }
         ,
         {id:"22",
-        Movie:"Avengers Infinity War",
+        Movie:"Avengers Infinity War Marvels Avengers' received mixed reviews upon its release, with praise for its storytelling, character design.",
         poster:"https://lumiere-a.akamaihd.net/v1/images/p_avengersinfinitywar_19871_cb171514.jpeg?region=0%2C0%2C540%2C810", 
         Category:"Hollywood" , 
         Heading:"'Marvels Avengers' received mixed reviews upon its release, with praise for its storytelling, character design, and representation of the Avengers. However, some players and critics had concerns about repetitive gameplay and technical issues."
         }
         ,
         {id:"23",
-        Movie:"Resident Evil :The Final Chapter",
+        Movie:"Resident Evil :The Final Chapter  aims to wrap up the overarching story of Alice's struggle against the Umbrella Corporation and the zombie apocalypse. It combines elements of action and horror, which have been signature traits of the 'Resident Evil' film franchise",
         poster:"https://e1.pxfuel.com/desktop-wallpaper/859/358/desktop-wallpaper-resident-evil-the-final-chapter-poster-hollywood-movie-wide-hollywood-movie-poster-thumbnail.jpg", 
         Category:"Hollywood" , 
         Heading:"'Resident Evil: The Final Chapter' aims to wrap up the overarching story of Alice's struggle against the Umbrella Corporation and the zombie apocalypse. It combines elements of action and horror, which have been signature traits of the 'Resident Evil' film franchise. "
@@ -176,14 +184,14 @@ const StoreContextApi=(props)=>
         }
         ,
         {id:"25",
-        Movie:"The Tommorow War:The film is directed by Chris McKay",
+        Movie:"The Tommorow War:The film is directed by Chris McKay, Tomorrow War' is a science fiction action film released in 2021. ",
         poster:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ489ohVpgq7X-QxOiP-EOtwMNnJ18onuZslg&usqp=CAU", 
         Category:"Hollywood" , 
         Heading:"'The Tomorrow War' is a science fiction action film released in 2021. The film is directed by Chris McKay and stars Chris Pratt in the lead role"
         }
         ,
         {id:"26",
-        Movie:"Insidious: It's known for its supernatural and paranormal",
+        Movie:"Insidious: It's known for its supernatural and paranormal .The 'Insidious' film series is a popular horror franchise that began in 2010.",
         poster:"data:image/jpeg;base64,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", 
         Category:"Hollywood" , 
         Heading:"The 'Insidious' film series is a popular horror franchise that began in 2010. It's known for its supernatural and paranormal themes, directed by James Wan and written by Leigh Whannell."
@@ -233,7 +241,7 @@ const StoreContextApi=(props)=>
         ,
         {
         id:"33",
-        Movie:"Technologiacl Gadgets:The Best New Tech Gear of September 2023",
+        Movie:"Technologiacl Gadgets:The Best New Tech Gear of September 2023 ,Technological gadgets refer to electronic devices or tools that serve specific purposes to make our lives more convenient, efficient, ",
         poster:"https://7esl.com/wp-content/uploads/2018/02/Technological-gadgets-vocabulary-in-English-1.jpg", 
         Category:"Technology" , 
         Heading:"Technological gadgets refer to electronic devices or tools that serve specific purposes and are designed to make our lives more convenient, efficient, and enjoyable. These gadgets often incorporate advanced technology and may include hardware, software, and user interfaces. As Shown in image"
@@ -368,7 +376,7 @@ const StoreContextApi=(props)=>
         }
         ,
         {id:"51",
-        Movie:"Streching , Stretching: 35 exercises to improve flexibility and reduce pain .",
+        Movie:"Streching , Stretching: 35 exercises to improve flexibility and reduce pain ,Stretching Guide: Types, Benefits, Stretches for Beginners, and More .",
         poster:"https://media.istockphoto.com/id/1364381385/photo/the-coach-makes-sure-that-the-girl-does-the-right-stretch-for-the-back-on-the-mat-in-the-gym.jpg?s=2048x2048&w=is&k=20&c=KwF3BDSDKsPJK1KIKCS4sd5HGYOWT2vNYaeUNqQm9Fc=", 
         Category:"Fitness", 
         Heading:",Stretching Guide: Types, Benefits, Stretches for Beginners, and More .Stretching is an excellent thing you can do for your health. These simple, yet effective moves can help you limber up for sports, improve your balance and prevent falls, increase your flexibility, and even help relieve arthritis, back, and knee pain.The coach makes sure that the girl does the right stretch for the back on the mat in the gym  Stretching keeps the muscles flexible, strong, and healthy, and we need that flexibility to maintain a range of motion in the joints. Without it, the muscles shorten and become tight. Then, when you call on the muscles for activity, they are weak and unable to extend all the way."
@@ -382,7 +390,7 @@ const StoreContextApi=(props)=>
         }
         ,
         {id:"53",
-        Movie:"Add Meditation as part of Our daily life",
+        Movie:"Add Meditation as part of Our daily life ,'Meditation, which is the practice of focused concentration, bringing yourself back to the moment over and over again",
         poster:"https://c4.wallpaperflare.com/wallpaper/197/491/622/women-meditation-brunette-hairbun-wallpaper-preview.jpg", 
         Category:"Fitness" , 
         Heading:"'Meditation, which is the practice of focused concentration, bringing yourself back to the moment over and over again, actually addresses stress, whether positive or negative.'Meditation can also reduce the areas of anxiety, chronic pain, depression, heart disease and high blood pressure.'"
@@ -428,7 +436,7 @@ const StoreContextApi=(props)=>
         ,
         {
         id:"59",
-        Movie:"Cycling is an excellent low-impact",
+        Movie:"Cycling is an excellent low-impact exercise that builds leg strength and promotes cardiovascular health.",
         poster:"https://assets.isu.pub/document-structure/230504144105-1415f94a0235285fe4d54dd9e953e5ea/v1/1d54115b2e0141d495642f236aeece3c.jpeg", 
         Category:"Fitness" , 
         Heading:"Cycling is an excellent low-impact exercise that builds leg strength and promotes cardiovascular health."
@@ -475,7 +483,7 @@ const StoreContextApi=(props)=>
         ,
         {
         id:"65",
-        Movie:"Indori Poha",
+        Movie:"Indori Poha Indori Poha (Poha of Indore) is a type of flattened (beaten) rice that is likely to have originated in indian Metropolis of Indore.",
         poster:"https://www.secondrecipe.com/wp-content/uploads/2021/12/indori-poha-2.jpg", 
         Category:"Food" , 
         Heading:"Indori Poha (Poha of Indore) is a type of flattened (beaten) rice that is likely to have originated in Indian metropolis of Indore. It contains steamed Poha (flattened rice) and is usually served with a unique combination of Jalebi (called Poha-Jalebi combined), Sev, Usal, sliced onions and fennel seeds."
@@ -483,7 +491,7 @@ const StoreContextApi=(props)=>
         ,
         {
         id:"66",
-        Movie:"Indori Poha jalebi",
+        Movie:"Indori Poha jalebi Indori Poha is mainly sold by vendors all around the city during morning time",
         poster:"https://thumbs.dreamstime.com/z/indian-glutenfree-breakfast-poha-jalebi-snack-sweet-eaten-parts-madhya-pradesh-especially-indore-bhopal-137568659.jpg", 
         Category:"Food" , 
         Heading:"Indori Poha is mainly sold by vendors all around the city during morning time, often alongside the city's other popular snacks 'Kachori-Samosas'. It is also available in nearby cities Ujjain, Dewas, Sagar, Dhar, Ratlam and Bhopal and is becoming a very popular cuisine in Maharashtra, Gujarat, Uttar Pradesh and Bihar."}
@@ -498,7 +506,7 @@ const StoreContextApi=(props)=>
         ,
         {
         id:"68",
-        Movie:"Indori Kachori ,which Make with Moong Dal Stuffing",
+        Movie:"Indori Kachori ,which Make with Moong Dal Stuffing consisting of a flour-based shell with different fillings.Kachori is a spicy Indian snack shaped ",
         poster:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFrqlGsNJnS240yIdC7Z5OOJGjbpkzuy6YhMIxGVj0q-X3vr4SHT1b80M24LTsy8ihQ8Q&usqp=CAU", 
         Category:"Food" , 
         Heading:"Kachori is a spicy Indian snack shaped like a round flattened ball, consisting of a flour-based shell with different fillings. The most popular filling consists of yellow moong dal, besan flour, pepper, chili powder, cumin seeds, and other spices"
@@ -568,7 +576,7 @@ const StoreContextApi=(props)=>
         ,
         {
         id:"77",
-        Movie:"Fruits",
+        Movie:"Fruits Fruit is the sweet, fleshy, edible part of a plant. It generally contains seeds. ",
         poster:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe5Bn_-g1qVwKf4sbdU5N9Yx-Q3uVOVlSgYg&usqp=CAU", Category:"Food" , 
         Heading:"Fruit is the sweet, fleshy, edible part of a plant. It generally contains seeds. Fruits are usually eaten raw, although some varieties can be cooked. They come in a wide variety of colours, shapes and flavours."
         }
@@ -626,7 +634,7 @@ const StoreContextApi=(props)=>
         }
         ,
         {id:"85",
-        Movie:"Why getting the iPhone 15 over Pro models makes more sense for Indian users",
+        Movie:"Why getting the iPhone 15 over Pro models makes more sense for Indian users ,Just like Apple did with the iPhone 13 Pro lineup, the company once again declared the iPhone 15 Pros as “the most Pro models ever.” A number of iterative improvements aside, their lighter builds thanks to the use of titanium was perhaps the biggest limelight hogger. But with these improvements also arrived a price bump ",
         poster:"https://images.indianexpress.com/2023/09/iphone-15-similar-looking.jpg", 
         Category:"Technology" , 
         Heading:"Just like Apple did with the iPhone 13 Pro lineup, the company once again declared the iPhone 15 Pros as “the most Pro models ever.” A number of iterative improvements aside, their lighter builds thanks to the use of titanium was perhaps the biggest limelight hogger. But with these improvements also arrived a price bump – the iPhone 15 Pro starts Rs 5K higher than the previous generation, while the iPhone 15 Pro Max is a whopping Rs 20K dearer. They may be the “most Pro” iPhones but they’re also the “most pricey” iPhones at the same time"
@@ -643,9 +651,9 @@ const StoreContextApi=(props)=>
 
         {
         id:"87",
-        Movie:"Raksha Bandhan",
+        Movie:"Raksha Bandhan Movies related to Raksha Bandhan often depict the emotional and heartfelt moments between siblings",
         poster:"https://www.filmibeat.com/ph-big/2022/06/raksha-bandhan_165580980900.jpg", 
-        Category:"Home" , 
+        Category:"Bollywood" , 
         Heading:"Movies related to Raksha Bandhan often depict the emotional and heartfelt moments between siblings. These films may explore themes of family, love, and the special bond between brothers and sisters."
         }
     ]

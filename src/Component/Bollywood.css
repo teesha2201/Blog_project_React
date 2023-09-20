@@ -10,10 +10,10 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; 
-    min-width:90vw;
+    min-width:94vw;
     min-height:50vh;
     position: relative;
-    top:20vh;
+    top:33vh;
     /* border:2px solid black; */
     box-sizing: border-box;
 
@@ -34,8 +34,9 @@ body{
     
 }
 .imgHollywoodTop{
-    width:20vw;
-    height:24vh;
+    width:26vw;
+    height:30vh;
+    box-shadow: 3px 4px 20px gray;
     /* border:2px solid green; */
     
     
@@ -48,8 +49,8 @@ body{
 .divHollywood{
     display: flex;
     flex-direction: row;
-    gap:20px;
-    margin-bottom: 4vh;
+    gap:10px;
+    margin-bottom: 8vh;
     border-bottom: 3px solid lightgray;
 }
 .divcoloumnHollywood{
@@ -81,6 +82,7 @@ body{
     flex-direction: column;
     width:34vw;
     min-height: 40vh;
+    /* justify-content: space-evenly; */
     /* border:3px solid blue; */
 }
 .textToppostHollywood{
@@ -92,28 +94,26 @@ body{
     text-decoration-color: lightslategray;
 }
 .rightHollywood{
-    width:34vw;
+    width:38vw;
     min-height: 20vh;
     /* border:2px solid red; */
 }
-/* .divHollywoodrightFirstdiv{
-    width:34vw;
-    min-height: 20vh;
-    border:3px solid yellow;
-    display: flex;
-    flex-direction: column;
-} */
+
 .divHollywoodright{
     display: flex;
     flex-direction: row;
     gap:20px;
+    margin-bottom: 6vh;
     border-bottom: 3px solid lightgray;
-    margin-bottom: 4vh;
+    
 }
 .imgHollyTop{
-    width:16vw;
-    height:20vh;
-    /* border:2px solid green; */
+    width:20vw;
+    height: 20vh;
+    box-shadow: 3px 4px 20px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .divcoloumnHolly{
     display: flex;
@@ -124,7 +124,7 @@ body{
     /* border:2px solid black; */
 }
 .topHollyTitle{
-    width:15vw;
+    width:18vw;
     min-height:4vh;
     /* border:2px solid black; */
     font-weight: bold;
@@ -137,11 +137,11 @@ body{
     /* border:2px solid rgb(205, 205, 219);  */
     float:right;
 }
-.Advertisment{
-    margin-top: 20vh;
-    margin-left:5vw;
+.AdvertismentBollywood img{
+    margin-top: 10vh;
+    margin-left:10vw;
     width:20vw;
-    height:160vh;
+    height:200vh;
     border:2px solid black;
     display: flex;
     justify-content: center;

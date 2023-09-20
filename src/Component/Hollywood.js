@@ -3,6 +3,7 @@ import  { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Store } from '../Store/StoreContextApi'
 import "./Bollywood.css"
+import "./Bollywoodmedia.css"
 function Hollywood()
 {
     const [contextdata] = useContext(Store)
@@ -36,7 +37,7 @@ function Hollywood()
                 <div className='rightParentHollywood'> 
                     <div className='textToppostHollywood'>Top Post</div>
                     <div className='rightHollywood'>
-                        {contextdata.filter((item)=>item.Category==="Hollywood" && item.id>=18 && item.id<=24).map((element,index)=>{
+                        {contextdata.filter((item)=>item.Category==="Hollywood" && item.id>=18 && item.id<=32).map((element,index)=>{
                                 return(
                                     <div className='divHollywoodright' key={index}>
                                         <NavLink to={`/details/${element.id}`}>
@@ -44,7 +45,7 @@ function Hollywood()
                                         </NavLink>
                                         <div className='divcoloumnHolly'>
                                             <div className='topHollyTitle'>{element.Movie}
-                                                <h1 className='TopPostIndexing'>{index+1}</h1>
+                                                <h1 className='TopPostindexing'>{index+1}</h1>
                                                 <div style={{color:"lightgray",lineHeight:"5vh"}}>Visited:11 August 2023</div>
                                             </div>
                                         </div>
@@ -55,7 +56,7 @@ function Hollywood()
 
                         
                     </div>
-                    <div className='Advertisment'>Advertisement</div>
+                    <div className='AdvertismentBollywood'><img src="https://media4.giphy.com/media/tfeBZQCErlj7FantMq/giphy.gif?cid=ecf05e47v29ij31o7ab275ojvc0mlqnj79wrw2hb8otgfxql&ep=v1_gifs_search&rid=giphy.gif&ct=g"></img></div>
                 </div>   
             </div>
 

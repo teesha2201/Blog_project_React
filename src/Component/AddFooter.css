@@ -2,38 +2,47 @@
     width: 99vw;
     min-height:40vh;
     
-    box-shadow: 3px 4px 20px gray;
+    box-shadow: 2px 2px 10px gray;
     position:relative;
-    top:70vh;
+    top:40vh;
     background-image: linear-gradient(145deg,rgb(188, 171, 171),rgb(141, 145, 147),rgb(173, 139, 173));
 }
 .rowFooter{
     padding-top: 4vh;;
     width: 98vw;
-    height:30vh;
+    height:20vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .div1Col{
-    width:20vw;
+    width:25vw;
     height: 40vh;
     /* border:2px solid blue; */
     font-size: 16px;
 }
 .div2Col{
     width:20vw;
-    height:40vh;
+    height:30vh;
     font-size:20px;
     font-family: 'Times New Roman', Times, serif;
     /* border:2px solid red; */
     display: flex;
     flex-direction: column;
+
     gap:10px;
+    text-align: left;
+}
+.div2Col_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div2Col h4{
     text-align: center;
 }
 .div3Col{
-    width:20vw;
+    width:30vw;
     height: 40vh;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -42,4 +51,89 @@
     flex-direction: column;
     gap:10px;
     text-align: left;
+}
+.FollowUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.circleFollow{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+   
+    
+}
+
+/*media for 300px to 667px*/
+@media screen and (min-width:300px) and (max-width:667px){
+    
+    .containerFooter{
+        width: 99vw;
+        min-height:40vh;
+        
+        box-shadow: 2px 2px 10px gray;
+        position:relative;
+        top:40vh;
+        background-image: linear-gradient(145deg,rgb(188, 171, 171),rgb(141, 145, 147),rgb(173, 139, 173));
+    }
+    .rowFooter{
+        padding-top: 4vh;;
+        width: 98vw;
+        height:auto;
+        display: flex;
+        gap:20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 3px solid lightgreen;
+    }
+    .div1Col{
+        width:88vw;
+        height: auto;
+        border:2px solid blue;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 4vw;
+    }
+    .div2Col{
+       
+        display: none;
+    }
+    .div2Col_row{
+        display: none;
+    }
+    .div2Col h4{
+        text-align: center;
+        display: block;
+        
+    }
+    .div3Col{
+        width:60vw;
+        height: auto;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        border:2px solid green;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15vw;
+       
+    }
+    .FollowUs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .circleFollow{
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+       
+        
+    }
+    
 }

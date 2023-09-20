@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import  { useContext } from 'react'
 import { Store } from '../Store/StoreContextApi'
 import "./Home.css" 
-
+import "./Homemedia.css"
 
 
 function Home()
@@ -22,24 +22,22 @@ function Home()
                     )
                 })}
 
-            {  /* Right Parent div */}
               <div >
-              {/*Right div1 */}
-              {/* <div className='rightparent'> */}
+              
               {contextdata.filter((item)=>item.id>23 && item.id<25 ).map((element ,index)=>{
 
             return(
 
-                // <div key={index} className='rightparent'>
+               
                     <div className='rightDiv1' key={index}>
                         <img src={element.poster} alt= "Not Found" className='imgRightdiv1' ></img>
                     </div> 
-                // </div>
+                
 
                 )
                 })}
-                {/* </div> */}
-            {/*Right div2 */}
+        
+           
             {contextdata.filter((item)=>item.id>74 && item.id<76 ).map((element ,index)=>{
 
             return(
@@ -54,34 +52,16 @@ function Home()
 
             {/* TExt Latest */}
             <span className='textLatest'>The Latest</span>
-            
-            {/* <div className='parentLatest'>
-              
-                {contextdata.filter((item )=>item.id%7===0 && item.id>=56 && item.id<=70).map((element,index)=>{
-                return(
-
-                    <div className='divLatest' key={index}>
-                            <div className='imgLatest'>
-                            <img src={element.poster}alt ="Not Found "  className='imgDivlatest'></img>
-                            <h3 className='imglatestheading'>{element.Movie}</h3>
-                            <p className='imglatestdescription'>{element.Heading.slice(0,110)}...</p>
-                            </div>
-                    </div>
-                )
-            })} 
-            </div> */}
-
-            
-                <div className='parentLatest'>
+                <div className='parentLatest mediaParentLatest'>
                                 {contextdata.filter((item )=>item.id%7===0 && item.id>=56 && item.id<=70).map((element,index)=>{
                                 return(
 
-                                    <div className='divLatest' key={index}>
+                                    <div className='divLatest mediadivLatest' key={index}>
                                         
-                                            <div className='Coloumnwise'>
-                                                    <img src={element.poster} alt="Not Found" className='imgDivlatest'></img>
-                                                    <h3 className='imglatestheading'>{element.Movie}</h3>
-                                                    <p className='imglatestdescription'>{element.Heading.slice(0,150)}</p>
+                                            <div className='Coloumnwise mediaColoumnwise'>
+                                                    <img src={element.poster} alt="Not Found" className='imgDivlatest mediaimgDivlatset'></img>
+                                                    <h3 className='imglatestheading mediaimglatestheading'>{element.Movie.slice(0,100)}</h3>
+                                                    <p className='imglatestdescription medialatestdescripition'>{element.Heading.slice(0,100)}</p>
                                             </div>
                                             
                                     </div>
@@ -93,61 +73,81 @@ function Home()
 
             {/* TopStories of Home page */}
 
-            <span className='textTopstories'>Top Stories </span>
-
-            <div className='topStories'>
-            {contextdata.filter((item)=>(item.id)%9===0).map((element,index)=>
-            {
-               
-                return(
-                    
-                    <div  className='divtopStories' key={index}>
-                        <img src={element.poster} alt="Not Found" className='imgHomeTopStories'></img>
-                        <div className='divcoloumn'>
-                            <h4 className='topStoriesTitle'>{element.Movie}</h4>
-                            <span className='topStoriesdetails'>{element.Heading.slice(0,130)}...
-                                <div style={{color:"lightgray",lineHeight:"5vh" ,fontSize:"14px"}}>Visited:11 August 2023</div>
-                            </span>
-                            
-                           
-                        </div>
+        <div className='parentHollywood'>
+            <div className='leftParentHollywood'>
+                <div className='textHollywood'>Top Stories </div>
+                <div className='leftHollywood'>
+                    {contextdata.filter((item)=>(item.id)%9===0).map((element,index)=>{
+                        return(
+                            <div className='divHollywood' key={index}>
+                                
+                                <img  src={element.poster} alt="Not Found" className='imgHollywoodTop'></img>
+                        
+                                <div className='divcoloumnHollywood'>
+                                    <div className='topHollywoodTitle'>{element.Movie}</div>
+                                    <div className='topPostHollywood'>{element.Heading.slice(0,100)}.
+                                        <div style={{color:"lightgray",lineHeight:"5vh"}}>Visited:11 August 2023</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        )
+                    })}
+                
+                </div>
+            </div>
+            <div className='rightParentHollywood'> 
+                    <div className='textToppostHollywood'>Top Posts</div> 
+                    <div className='rightHollywood'>
+                        {contextdata.filter((item)=>(item.id)%11===0).map((element,index)=>{
+                                return(
+                                    <div className='divHollywoodright' key={index}>
+                                        
+                                       <img  src={element.poster} alt="Not Found" className='imgHollyTop'></img>
+                                        <div className='divcoloumnHolly'>
+                                            <div className='topHollyTitle'>{element.Movie}
+                                                <h1 className='TopPostindexing'>{index+1}</h1>
+                                                <div style={{color:"lightgray",lineHeight:"5vh"}}>Visited:11 August 2023</div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                )
+                            })
+                        }    
                     </div>
-                )
-            }
-            )}    
+                    <div className='AdvertismentHome'><img src="https://media4.giphy.com/media/tfeBZQCErlj7FantMq/giphy.gif?cid=ecf05e47v29ij31o7ab275ojvc0mlqnj79wrw2hb8otgfxql&ep=v1_gifs_search&rid=giphy.gif&ct=g"></img></div>
+                </div>
+
+        </div>
+
+
+        <span className='textLatest'>Latest Stories</span>
+                <div className='parentLatest HomeparentLatest'>
+                                {contextdata.filter((item )=>item.id%8===0 && item.id>=12 && item.id<=49).slice(0,3).map((element,index)=>{
+                                return(
+
+                                    <div className='divLatest HomedivLatest' key={index}>
+                                        
+                                            <div className='Coloumnwise HomeColoumnwise'>
+                                                    <img src={element.poster} alt="Not Found" className='imgDivlatest HomeimgDivlatest'></img>
+                                                    <h3 className='imglatestheading Homeimglatestheading'>{element.Movie}</h3>
+                                                    <p className='imglatestdescription Homeimglatestdescription'>{element.Heading.slice(0,120)}</p>
+                                            </div>
+                                            
+                                    </div>
+                                )
+                            })} 
+                </div>
+            
+
+           
 
                         
-                     
-               
-                  
-            </div>
+            
 
-            {/* Top Post of Home page */}
-
-            <span className='textTopPost'>Top Posts</span>
-
-            <div className='topPost'>
-               
-                
-            {contextdata.filter((item)=>(item.id)%17===0).map((element,index)=>
-                {
-                    return(
-                        <div className='divtopPost' key={index}>
-                          <img src={element.poster} alt="Not Found" className='imgHomeTopPost'></img>
-                          <div className='topPostTitle'>{element.Movie}
-                            <div style={{color:"lightgray",lineHeight:"5vh"}}>Visited:11 August 2023</div>
-                            <h1 className='TopPostIndexing'>{index+1}</h1>
-                          </div>
-                          
-                            
-                        </div>
-                    )
-                }
-            )} 
-            </div>
-
-            <div className='Advertisement'>Advertisement</div>
-
+           
+           
             
 
 
