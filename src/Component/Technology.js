@@ -34,7 +34,7 @@ function Technology()
                 <div className='rightParentHollywood'> 
                     <div className='textToppostHollywood'>Top Post</div>
                     <div className='rightHollywood'>
-                        {contextdata.filter((item)=>item.Category==="Technology" && item.id>=39 && item.id<=48).map((element,index)=>{
+                        {contextdata.filter((item)=>item.Category==="Technology" && item.id>=35 && item.id<=54).map((element,index)=>{
                                 return(
                                     <div className='divHollywoodright' key={index}>
                                         <NavLink to={`/details/${element.id}`}>
@@ -42,7 +42,7 @@ function Technology()
                                         </NavLink>
                                         <div className='divcoloumnHolly'>
                                             <div className='topHollyTitle'>{element.Movie}
-                                                <h1 className='TopPostIndexing'>{index+1}</h1>
+                                                <h1 className='TopPostindexing'>{index+1}</h1>
                                                 <div style={{color:"lightgray",lineHeight:"5vh"}}>Visited:11 August 2023</div>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@ function Technology()
 
                         
                     </div>
-                    <div className='Advertisment'>Advertisement</div>
+                    <div className='AdvertismentBollywood'><img src="https://media4.giphy.com/media/tfeBZQCErlj7FantMq/giphy.gif?cid=ecf05e47v29ij31o7ab275ojvc0mlqnj79wrw2hb8otgfxql&ep=v1_gifs_search&rid=giphy.gif&ct=g"></img></div>
                 </div>   
             </div>
 
