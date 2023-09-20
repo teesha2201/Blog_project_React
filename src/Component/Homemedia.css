@@ -6,10 +6,10 @@
         height: auto;
         justify-content: space-evenly;
         flex-direction: column;
-        gap:25px;
+        gap:30px;
         position: relative;
         top:25vh;
-        left:8vw;
+        /* left:8vw; */
         /* border:2px solid black; */
        
     }
@@ -55,20 +55,53 @@
         /* border:8px solid red; */
         position: relative;
         top:30vh;
-        left: 6vw;
+        left: 4vw;
         flex-direction: column;
  
     }
+    .mediaColoumnwise{
+        width:84vw;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 2px solid green; */
+        column-gap:10px;
+    }
+    .mediaimgDivlatest{
+    
+        width:83vw;
+        height:40vh;
+        border:2px solid black;
+        border-radius: 1% ; 
+        box-shadow: 4px 4px 20px gray;;
+        
+    }
+    .mediaimglatestheading{
+    
+        width:83vw;
+        min-height:6vh;
+        /* border:2px solid red; */
+        padding-top:3vh ;
+    }
+    .medialatestdescripition{
+        width:83vw;
+        min-height:6vh;
+        /* border:2px solid black; */
+        padding: 3vh 0vw;
+        font-size:18px;
+    }
+
     .HomeparentLatest{
         width:88vw;
         min-height: auto;
         /* border:2px solid red; */
         position: relative;
         top:40vh;
-        left: 6vw;
+        /* left: 6vw; */
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
        
     }
     .HomeColoumnwise{
@@ -78,11 +111,19 @@
         flex-direction: column;
         justify-content: space-around;
     } 
+    .HomeimgDivlatest{
+        width:83vw;
+    height:40vh;
+    /* border:2px solid black; */
+    border-radius: 1% ; 
+    box-shadow: 4px 4px 20px black;
+    
+    }
     .Homeimglatestheading{
         position:relative;
        top:1vh; 
        width:80vw;
-       height:20vh;
+       height: auto;
        /* min-height:6vh; */
        /* border:2px solid red; */
        padding-top:2vh ;
@@ -91,7 +132,7 @@
     position: relative;
    top:0vh; 
    width:84vw;
-   min-height:auto;
+   min-height:10vh;;
    /* border:2px solid black; */
    padding: 2vh 0vw;
    font-size:16px;

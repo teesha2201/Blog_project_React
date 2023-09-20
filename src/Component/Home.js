@@ -42,7 +42,7 @@ function Home() {
                     return (
                         <div className='divLatest mediadivLatest' key={index}>
                             <div className='Coloumnwise mediaColoumnwise'>
-                                <img src={element.poster} alt="Not Found" className='imgDivlatest mediaimgDivlatset' />
+                                <img src={element.poster} alt="Not Found" className='imgDivlatest mediaimgDivlatest' />
                                 <h3 className='imglatestheading mediaimglatestheading'>{element.Movie.slice(0, 100)}</h3>
                                 <p className='imglatestdescription medialatestdescripition'>{element.Heading.slice(0, 100)}</p>
                             </div>

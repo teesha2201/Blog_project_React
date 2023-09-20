@@ -32,12 +32,9 @@ function Details() {
                         <img className='circleFollow' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGs1LETqnEyuX9xvRmPjHK7ulEtLeXSpYLHQ&usqp=CAU" alt='Not Found'/>
                         <img  className="circleFollow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7zTyVz8gyeFBXNFNC_TJ2mdKZXMUiY6LoFg&usqp=CAU" alt="Not Found"/>
                     </div>
-                    <div>
-                   
-    
-                    </div>
+                
                 </div>
-                <img src={selectedItem.poster} alt='Not Found' className='imgDetails'></img>
+                <img src={selectedItem.poster} alt='Not Found' className='imgDetails'/>
                 <h3 className='DetailsTitle'>{selectedItem.Movie}</h3>
                 <p className='DetailsInfo'>{selectedItem.Heading}</p> 
             </div>
@@ -45,25 +42,23 @@ function Details() {
 
         <div className='TextMore'>More From The Siren </div>        
 
-        <div className='parentLatest bottomparentLatest'>
-            
-                                {contextdata.filter((item )=>(item.Category === dynamicImg) && (item.id%5===1 || item.id%3 === 2 || item.id%3===0)).slice(0,3).map((element,index)=>{
+        <div className='parentLatestDesk bottomparentLatest'>
+            {contextdata.filter((item )=>(item.Category === dynamicImg) && (item.id%5===1 || item.id%3 === 2 || item.id%3===0)).slice(0,3).map((element,index)=>{
                                 return(
 
-                                    <div className='divLatest bottomdivLatest' key={index}>
-                                        
-                                            <div className=' Coloumnwise bottomColoumnwise'>
+                                    <div className='divLatestDesk bottomdivLatest' key={index}>
+                                      <div className=' ColoumnwiseDesk bottomColoumnwise'>
                                                 <NavLink to={`/details/${element.id}`}>
-                                                    <img src={element.poster} alt="Not Found" className='imgDivlatest bottomimgDivlatest'></img>
+                                                    <img src={element.poster} alt="Not Found" className='imgDivlatestDesk bottomimgDivlatest'></img>
                                                 </NavLink>    
-                                                    <h3 className='imglatestheading bottomimglatestheading'>{element.Movie}</h3>
-                                                    <p className='imglatestdescription bottomimglatestdescription'>{element.Heading.slice(0,150)}</p>
-                                            </div>
-                                            
+                                                    <h3 className='imglatestheadingDesk bottomimglatestheading'>{element.Movie}</h3>
+                                                    <p className='imglatestdescriptionDesk bottomimglatestdescription'>{element.Heading.slice(0,150)}</p>
+                                        </div>              
                                     </div>
                                 )
-                            })} 
-                </div>
+            })} 
+                                
+        </div>
 
 
                 

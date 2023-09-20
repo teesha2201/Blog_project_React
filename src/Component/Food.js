@@ -59,7 +59,9 @@ function Food() {
                                 );
                             })}
                     </div>
-                    <div className='Advertisment'>Advertisement</div>
+                    <div className="AdvertismentBollywood">
+                        <img src="https://media4.giphy.com/media/tfeBZQCErlj7FantMq/giphy.gif?cid=ecf05e47v29ij31o7ab275ojvc0mlqnj79wrw2hb8otgfxql&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Not Found" />
+                    </div>
                 </div>
             </div>
         </>

@@ -7,6 +7,7 @@
 
 }
 
+
 section{
     display: inline-flex;
     justify-content: center;
@@ -76,10 +77,21 @@ header{
   
 @media screen and (min-width:330px) and (max-width:667px){
     
+    .The_title{
+        font-size: 24px;
+        writing-mode: vertical-lr;
+        text-orientation:sideways;
+        position:relative;
+        top:2vh;
+        left:44.7vw;
+        
+       
+    }
+
     header{
         width:auto;
         height:auto;
-       gap:10px;
+        gap:10px;
         justify-content: center;
         border:2px solid black;
         flex-wrap: wrap;
@@ -89,18 +101,18 @@ header{
         display: block;
         width:auto;
         text-decoration:none ;
-        color:rgb(66, 74, 74);
-        font-size: 16px;
+        color:rgb(233, 241, 241);
+        font-size: 24px;
         
     }
     .HeaderNavlink{
-        width:89vw;
+        width:88vw;
         height:auto;
         text-align: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         row-gap:2px;
-        margin-left:6vw;
+        margin-left:3vw;
         
     }
     

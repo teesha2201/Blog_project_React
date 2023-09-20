@@ -103,7 +103,7 @@ body{
 }
 
 
-.parentLatest{
+.parentLatestDesk{
     width:88vw;
     min-height: auto;
     /* border:2px solid red; */
@@ -129,7 +129,7 @@ body{
 
 }
 
-.Coloumnwise{
+.ColoumnwiseDesk{
     width:28vw;
     min-height: 60vh;
     display: flex;
@@ -139,19 +139,36 @@ body{
     
     
 }
-
-
+.imgDivlatestDesk{
+    width:28vw;
+    height:40vh;
+    /* border:2px solid black; */
+    border-radius: 1% ; 
+}
+.imglatestheadingDesk{
+    width:28vw;
+    min-height:6vh;
+    /* border:2px solid red; */
+    padding-top:3vh ;
+}
+.imglatestdescriptionDesk{
+    width:28vw;
+    min-height:6vh;
+    /* border:2px solid black; */
+    padding: 3vh 0vw;
+    font-size:18px;
+}
 
 /*media  */
 
 @media screen and (min-width:300px) and (max-width:667px) {
-    .mediaParentLatest{
+    .bottomParentLatest{
         width:88vw;
         height:auto;
-        
+        border:2px solid blue;
         position: relative;
         top:40vh;
-        left: 6vw;
+        left: 4vw;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
