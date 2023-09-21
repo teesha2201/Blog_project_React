@@ -26,8 +26,8 @@ function Details() {
                 <h1 className='topLineDetails'>This site is Best to Read Blog's</h1>
                 <div className='headingDetails'>
                     <div className='EmojiRow'>
-                        <img className='circle' src={contextdata[88].logo} alt="Not Found"/>
-                        <div className='Detailsname'>Ridh Gupta <br></br>sep 12,2023  10min read</div>
+                        <img className='circle' src={contextdata[88].logogirl} alt="Not Found"/>
+                        <div className='Detailsname'>Teesha Gupta <br></br>sep 12,2023  10min read</div>
                     </div>
                   
                     <div className="SocialLink">
