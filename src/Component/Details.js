@@ -19,18 +19,24 @@ function Details() {
         <>
         <div className='detailsDiv'>
             <div className='detailscoloumn'>
+                <div> 
+                    <h2><i class="fa-solid fa-thumbs-up"></i></h2>
+                    <h2><i class="fa-solid fa-share-nodes"></i></h2>                    
+                </div>
                 <h1 className='topLineDetails'>This site is Best to Read Blog's</h1>
                 <div className='headingDetails'>
                     <div className='EmojiRow'>
-                        <img className='circle' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=29d2c332-d12d-44e7-8f76-09de45b77c89&api_key=CometServer1&access_token=1695150445_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_d65f75fd0983d579a59b3456e413fd5cf44dca90" alt="Not Found"/>
+                        <img className='circle' src={contextdata[88].logo} alt="Not Found"/>
                         <div className='Detailsname'>Ridh Gupta <br></br>sep 12,2023  10min read</div>
                     </div>
                   
                     <div className="SocialLink">
-                        <img  className="circleFollow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztMLZ5RO6EhrIJrzmBK2Kh2tLmsroesf87g&usqp=CAU" alt="Not Found"/>
-                        <img  className="circleFollow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6lMHdoGBTbg5rYGlo_5_fSyqEJpuFnIvoMR0eqy-mwxfErJUHdj_dPVs03x3U2r--w0&usqp=CAU" alt='Not Found'/>
-                        <img className='circleFollow' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGs1LETqnEyuX9xvRmPjHK7ulEtLeXSpYLHQ&usqp=CAU" alt='Not Found'/>
-                        <img  className="circleFollow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7zTyVz8gyeFBXNFNC_TJ2mdKZXMUiY6LoFg&usqp=CAU" alt="Not Found"/>
+                        <a href={contextdata[88].teeshalinkdln} rel='No reference' target='_blank'><img  className="circleFollow" src={contextdata[88].facebook} alt="Not Found"/></a>
+                        <a href={contextdata[88].teeshalinkdln} rel='No reference' target='_blank'><img  className="circleFollow" src={contextdata[88].twitter} alt='Not Found'/></a>
+                        <a href={contextdata[88].teeshalinkdln} rel='No reference' target='_blank'><img className='circleFollow'  src={contextdata[88].instagram} alt='Not Found'/></a>
+                        <a href={contextdata[88].teeshalinkdln} rel='No reference' target='_blank'>
+                            <img  className="circleFollow" src={contextdata[88].linkdln} alt="Not Found"/>
+                        </a>
                     </div>
                 
                 </div>

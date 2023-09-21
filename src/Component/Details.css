@@ -65,6 +65,20 @@ body{
     /* border:2px solid black; */
     
 }
+.detailscoloumn{
+   
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    width:95vw;
+    min-height: 40vh;
+    /* border:2px solid red; */
+
+
+}
 .Detailsname{
     width:14vw;
     height: 8vh;
@@ -95,11 +109,15 @@ body{
 .DetailsTitle{
     text-align: center;
     font-size: 30px;
+    width:50vw;
+    height: auto;
    
 }
 .DetailsInfo{
     text-align: center;
     font-size: 24px;
+    width:50vw;
+    height:auto;
 }
 
 
@@ -162,27 +180,123 @@ body{
 /*media  */
 
 @media screen and (min-width:300px) and (max-width:667px) {
-    .bottomParentLatest{
-        width:88vw;
-        height:auto;
-        border:2px solid blue;
-        position: relative;
-        top:40vh;
-        left: 4vw;
-        display: flex;
+    
+    .detailsDiv{
+        width:95vw;
+        min-height: auto;
+        position:relative;
+        top:20vh;
+        /* border:2px solid black; */
+        display:flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .topLineDetails{
+        text-align:center;
+        font-size:30px;
+        font-family:cursive;
+        color:black;
+        width:90vw;
+        /* border:2px solid green; */
+    }
+    .EmojiRow{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        width:44vw;
+        height:10vh;
+        /* border:2px solid red; */
+    }
+    .circle{
+        width:30px;
+        height:30px;
+        border-radius: 50%;
+        /* border:2px solid black; */
+        
+    }
+    .Detailsname{
+        width:44vw;
+        height: 10vh;
+        /* border:2px solid green; */
+        font-size: 16px ;
+        text-align: left;
+        margin-left:10px ;
+        color:black;
+        font-weight: 600;
+        
+    }
+    .DetailsTitle{
+        text-align: center;
+        font-size: 34px;
+        color:black;
        
     }
+    .SocialLink{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width:34vw;
+        height:10vh;
+        /* border:2px solid red; */
+    }
+    .imgDetails{
+        width:80vw;
+        height:50vh;
+        /* border:2px solid black; */
+        box-shadow: 4px 4px 30px gray;
+        
+    }
+    .TextMore{
+        width:88vw;
+        height:10vh;
+        /* border:2px solid green; */
+        font-size: 30px;
+        font-family:cursive;
+        font-weight: bold;
+        position: relative;
+        top:24vh;
+        left:4vw;
+        border-bottom: 4px solid gray;
+        /* text-shadow:  3px 4px 10px gray ; */
+    
+    }
+    /* .bottomParentLatest{ */
+        .parentLatestDesk{
+            width:95vw;
+            min-height: auto;
+            /* border:2px solid red; */
+            position: relative;
+            top:30vh;
+            left: 0vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
     .bottomimgDivlatest{
         width:84vw;   
+    }
+    .bottomColoumnwise{
+        width:94vw;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border:2px solid green; */
+        margin-bottom:4vh;
+        /* border-bottom: 3px solid gray; */
+        
     }
     .bottomimglatestheading{
          position:relative;
         top:1vh; 
         width:80vw;
-        height:20vh;
+        height:auto;
         padding-top:2vh ;
     }
     .bottomimglatestdescription{

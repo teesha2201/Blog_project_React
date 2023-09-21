@@ -142,7 +142,7 @@ body{
     margin-left:10vw;
     width:20vw;
     height:200vh;
-    border:2px solid black;
+    /* border:2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;

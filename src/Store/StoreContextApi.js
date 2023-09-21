@@ -654,6 +654,20 @@ const StoreContextApi=(props)=>
         Category:"Bollywood" , 
         Heading:"Movies related to Raksha Bandhan often depict the emotional and heartfelt moments between siblings. These films may explore themes of family, love, and the special bond between brothers and sisters."
         }
+        ,
+        {   id:"88", 
+            logo:"https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=29d2c332-d12d-44e7-8f76-09de45b77c89&api_key=CometServer1&access_token=1695150445_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_d65f75fd0983d579a59b3456e413fd5cf44dca90"
+            ,
+            facebook:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztMLZ5RO6EhrIJrzmBK2Kh2tLmsroesf87g&usqp=CAU"
+            ,
+            twitter:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6lMHdoGBTbg5rYGlo_5_fSyqEJpuFnIvoMR0eqy-mwxfErJUHdj_dPVs03x3U2r--w0&usqp=CAU"
+            ,
+            instagram:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGs1LETqnEyuX9xvRmPjHK7ulEtLeXSpYLHQ&usqp=CAU"
+            ,
+            linkdln:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7zTyVz8gyeFBXNFNC_TJ2mdKZXMUiY6LoFg&usqp=CAU"
+            ,
+            teeshalinkdln:"https://www.linkedin.com/in/teesha-gupta-9092b921b/"
+        }
     ]
 
     

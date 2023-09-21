@@ -58,7 +58,7 @@ body{
 .textToppost{
     width:50vw;
     min-height: 20vh;
-    border:2px solid red;
+    /* border:2px solid red; */
     display: block;
 }
  .divHollywood{
@@ -167,7 +167,7 @@ body{
     justify-content: space-evenly; 
     min-width:90vw;
     min-height:50vh;
-    border:2px solid black;
+    /* border:2px solid black; */
     box-sizing: border-box;
 
 } 
@@ -224,7 +224,7 @@ body{
     flex-direction: column;
     width:88vw;
     min-height: 40vh;
-    border:3px solid blue;
+    /* border:3px solid blue; */
     margin-left:4vw ;
 }
  .textToppostHollywood{
@@ -239,7 +239,7 @@ body{
 .rightHollywood{
     width:87vw;
     min-height: 20vh;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 
 .divHollywoodright{
@@ -254,7 +254,7 @@ body{
 .imgHollyTop{
     width:35vw;
     height:25vh;
-    border:2px solid green;
+    /* border:2px solid green; */
 }
 .divcoloumnHolly{
     display: flex;
@@ -267,7 +267,7 @@ body{
 .topHollyTitle{
     width:40vw;
     min-height:10vh;
-    border:2px solid black;
+    /* border:2px solid black; */
     font-weight: bold;
     font-size: 24px;
 }
