@@ -22,7 +22,7 @@ function Details() {
                 <h1 className='topLineDetails'>This site is Best to Read Blog's</h1>
                 <div className='headingDetails'>
                     <div className='EmojiRow'>
-                        <img className='circle' src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=29d2c332-d12d-44e7-8f76-09de45b77c89&api_key=CometServer1&access_token=1695150445_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_d65f75fd0983d579a59b3456e413fd5cf44dca90" alt="Not Found"/>
+                        <img className='circle' src=" " alt="Not Found"/>
                         <div className='Detailsname'>Ridh Gupta <br></br>sep 12,2023  10min read</div>
                     </div>
                   
@@ -51,8 +51,8 @@ function Details() {
                                                 <NavLink to={`/details/${element.id}`}>
                                                     <img src={element.poster} alt="Not Found" className='imgDivlatestDesk bottomimgDivlatest'></img>
                                                 </NavLink>    
-                                                    <h3 className='imglatestheadingDesk bottomimglatestheading'>{element.Movie}</h3>
-                                                    <p className='imglatestdescriptionDesk bottomimglatestdescription'>{element.Heading.slice(0,150)}</p>
+                                                    <h3 className='imglatestheadingDesk bottomimglatestheading'>{element.Movie.slice(0,30)}</h3>
+                                                    <p className='imglatestdescriptionDesk bottomimglatestdescription'>{element.Heading.slice(0,100)}</p>
                                         </div>              
                                     </div>
                                 )

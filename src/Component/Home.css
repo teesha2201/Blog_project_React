@@ -111,10 +111,10 @@ body{
 
 .AdvertismentHome img{
     width:25vw;
-    height:150vh;
-    border:2px solid black; 
+    height:130vh;
+    /* border:2px solid black;  */
     position:relative;
-    top:15vh;
+    top:10vh;
     left:5vw;
     
     display: flex;

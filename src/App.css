@@ -1,15 +1,244 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
-
 *{
     margin:0;
     padding:0;
-    /* background-color: rgb(203, 218, 179); */
-    /* text-align: center; */
     box-sizing: border-box;
-
+    /* font-family: "Jost",serif; */
 }
 
+section{
+    display: inline-flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: row;
+    /* background-color: #e9e3e3; */
+    /* border: 2px solid green; */
+    width:100%;
+    height: 14vh;
+    box-shadow: 4px 4px 20px  gray;
+    
+    
+}
+.titleparent{
+    width:10vw;
+    /* border:2px solid purple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.The_title{
+    font-size: 30px;
+    writing-mode: vertical-lr;
+    text-orientation:sideways;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border:2px solid yellow; */
+   
+}
+.siren{
+    font-size: 40px;
+    color:lightcoral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    /* width:10%; */
+    /* border: 3px solid red; */
+    
+}
 
+.navlink{
+    text-decoration: none;
+   
+    color:rgb(139, 134, 134);
+    flex-direction: row;
+    /* border:3px solid rgb(255, 0, 230); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    border:10px solid white;
+    list-style: none;
+    font-size: 34px;
+    height: 13vh;
+}
+
+/* navbar style start */
+
+.main-nav{
+    width: 100%;
+    height: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top:1vh;
+    
+}
+.logo{
+    background-color: rgb(183, 165, 185);
+   
+    
+}
+.logo h2 ,.logo h2 span{
+    font-size:2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-image: linear-gradient(#eee,rgb(212, 211, 224));
+    -webkit-text-fill-color: transparent;
+    /* border:3px solid green; */
+    /* position: relative; */
+    /* top:0px; */
+}
+@media screen and (min-width:330px) and (max-width:667px){
+    section{
+       
+        width:100%;
+        
+        
+    }
+    .titleparent{
+        width:22vw;
+        /* border:2px solid purple; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .The_title{
+        font-size: 20px;
+        writing-mode: vertical-lr;
+        text-orientation:sideways;
+       
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* border:2px solid yellow; */
+       
+    }
+    .siren{
+        font-size: 22px;
+        color:lightcoral;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        /* width:10%; */
+        /* border: 3px solid red; */
+        
+    }
+    
+    .navlink{
+        text-decoration: none;
+       
+        color:rgb(139, 134, 134);
+        flex-direction: column;
+        /* border:3px solid rgb(255, 0, 230); */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    li{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* gap:30px; */
+        border:4px solid white;
+        list-style: none;
+        font-size: 10px;
+        height: 13.5vh;
+        /* font-weight: bold; */
+    }
+    
+    /* navbar style start */
+    
+    .main-nav{
+        width: 100%;
+        height: 0rem;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top:1vh;
+        
+    }
+    .logo{
+        background-color: rgb(183, 165, 185);
+       
+        
+    }
+    .logo h2 ,.logo h2 span{
+        font-size:2.5rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        background-image: linear-gradient(#eee,rgb(212, 211, 224));
+        -webkit-text-fill-color: transparent;
+        /* border:3px solid green; */
+        /* position: relative; */
+        /* top:0px; */
+    }
+}
+
+@media screen and (min-width:668px) and (max-width:1180px)
+{
+    .titleparent{
+        width:20vw;
+        /* border:2px solid purple; */
+       
+    }
+    .The_title{
+        font-size: 30px;
+        
+       
+       
+        /* border:2px solid yellow; */
+       
+    }
+    .siren{
+        font-size: 24px;
+        color:lightcoral;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* border: 2px solid red; */
+    }
+    
+    .navlink{
+        text-decoration: none;
+        font-size:20px;
+        color:rgb(28, 27, 27);
+        flex-direction: column;
+        /* border:3px solid rgb(255, 0, 230); */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    li{
+       
+        /* gap:30px; */
+        
+        font-size: 20px;
+        height: 13vh;
+        /* font-weight: bold; */
+    }
+    
+    /* navbar style start */
+    
+    .main-nav{
+        width: 100%;
+        height: 0rem;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top:1vh;
+        
+    }
+    
+   
+    
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"); */
+
+/* *{
+    margin:0;
+    padding:0;
+   
+    box-sizing: border-box;
+
+} */
+
+/* 
 section{
     display: inline-flex;
     justify-content: center;
@@ -30,8 +259,7 @@ section{
 }
 .siren{
     font-size: 34px;
-    /* writing-mode: horizontal-tb;
-    text-orientation: sideways-right; */
+  
     color:lightcoral;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position:relative;
@@ -69,7 +297,7 @@ header{
     font-size: 30px;
     background-image:linear-gradient(rgb(179, 177, 155),skyblue) ;
     color:rgb(167, 167, 198);
-}
+} */
 
 
 /*media of 300 to 667*/
@@ -78,12 +306,16 @@ header{
   
   
 @media screen and (min-width:330px) and (max-width:667px){
+
+    /* body{
+        overflow-x: hidden;
+    }
     section{
         display: inline-flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        /* border:4px solid blue; */
+      
         width:95vw;
         position: relative;
         
@@ -96,37 +328,33 @@ header{
         top:1vh;
         left:0;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        
         background-color: lightcoral;
-        /* border:2px solid black; */
+        
        
     }
     .siren{
         font-size: 36px;
-        /* writing-mode: horizontal-tb;
-        text-orientation: sideways-right; */
         color:lightcoral;
         background-color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position:relative;
         top:1vh;
         left:1vw;
         width:30vw;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        /* border:3px solid green;; */
+      
         
-    }
-    header{
+    } */
+    /* header{
         width:auto;
         height:auto;
         gap:10px;
         justify-content: center;
-        /* border:2px solid black; */
+        
         flex-wrap: wrap;
         background-color: rgb(30, 29, 29);
 
-    }
-    .navlink{
+    } */
+    /* .navlink{
         display: block;
         width:auto;
         text-decoration:none ;
@@ -149,13 +377,90 @@ header{
         box-shadow: 4px 4px 20px black;
         
         
-    }
+    } */
     
 }
+
+  
+@media screen and (min-width:668px) and (max-width:1180px){
+
+    /* body{
+        overflow-x: hidden;
+    } */
+    /* section{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+       
+        width:100vw;
+        position: relative;
+        
+    } */
+    /* .The_title{
+        font-size: 56px;
+        writing-mode: vertical-lr;
+        text-orientation:sideways;
+        position:relative;
+        top:1vh;
+        left:0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         
        
-   
- 
+       
+    } */
+    /* .siren{
+        font-size: 56px;
+       
+       
+        background-color: black; 
+        
+        position:relative;
+        top:1vh;
+        left:1vw;
+        width:20vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        
+    } */
+    /* header{
+        width:auto;
+        height:auto;
+        gap:9px;
+        justify-content: center;
+        
+        flex-wrap: wrap;
+        background-color: rgb(30, 29, 29);
+
+    } */
+    /* .navlink{
+        display: block;
+        width:auto;
+        text-decoration:none ;
+        color:lightcoral;
+        font-size: 28px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    } */
+    /* .HeaderNavlink{
+        width:100vw;
+        height:8vh;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        row-gap:2px;
+        margin-left:0vw;
+        margin-top: 2vh;
+        background-color: white;
+        background-color: rgb(230, 221, 221);
+        box-shadow: 4px 4px 20px black;
+        
+        
+    } */
+    
+}
+        /* Responsive navbar */
+
 
 
 

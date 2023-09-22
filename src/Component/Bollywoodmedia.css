@@ -149,7 +149,7 @@ body{
 
 /*media for 668px to 1100px*/
 
-@media only screen and (min-width:668px) and (max-width:1120px) {
+@media only screen and (min-width:668px) and (max-width:1180px) {
     
     body{
         margin:0;
@@ -172,51 +172,66 @@ body{
 
 } 
 .leftParentHollywood{
+
     display: flex;
     flex-direction: column;
-    margin-left: 4vw;
+    /* margin-left: 4vw; */
     
 }
 
 .textHollywood{
-    width:90vw;
+    width:100vw;
     height:10vh;
     font-size: 58px;
+    text-align: center;
 }
 
 .leftHollywood{
-    width:90vw;
+    width:100vw;
     
 }
 .imgHollywoodTop{
-    width:36vw;
+    width:70vw;
     height:43vh;
     border-radius: 3%;
 }   
 .textToppost{
-    width:54vw;
+    width:78vw;
     min-height: 20vh;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  .divHollywood{
+    width:100vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap:25px;
-    margin-bottom: 5vh;
-    border-bottom: 8px solid lightgray;
-    padding-bottom: 3vh;
+    /* margin-bottom: 5vh; */
+    border-bottom: 0px solid lightgray;
+    padding-bottom: 0vh;
 } 
 .divcoloumnHollywood{ 
     width:52vw;
 }
 .topHollywoodTitle{
-    width:50vw;
+    width:60vw;
     font-size: 34px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    left:0vw; */
+    /* border:2px solid black; */
     
 }
 .topPostHollywood{
-    width:50vw;
+    width:60vw;
     font-size: 30px;
+    min-height:auto;
 }
 /*Right Hollywood*/
 .rightParentHollywood{
@@ -225,13 +240,15 @@ body{
     width:88vw;
     min-height: 40vh;
     /* border:3px solid blue; */
-    margin-left:4vw ;
+    /* margin-left:4vw ; */
 }
  .textToppostHollywood{
-    width:88vw;
+    width:100vw;
     height:10vh;
-    font-size: 40px;
-    border:2px solid black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    /* border:2px solid black; */
     text-decoration: underline;
     text-decoration-color: lightslategray;
 }
@@ -244,42 +261,47 @@ body{
 
 .divHollywoodright{
     display: flex;
-    flex-direction: row;
-    gap:20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     border-bottom: 3px solid lightgray;
-    margin-bottom: 4vh;
-    width:87vw;
+    /* margin-bottom: 4vh; */
+    width:100vw;
+    
     padding-bottom: 3vh;
 }
 .imgHollyTop{
-    width:35vw;
+    width:70vw;
     height:25vh;
     /* border:2px solid green; */
 }
 .divcoloumnHolly{
     display: flex;
     flex-direction: column;
-    width:65vw;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
     min-height:auto;
     gap:20px;
     
 }
 .topHollyTitle{
-    width:40vw;
+    width:70vw;
     min-height:10vh;
     /* border:2px solid black; */
     font-weight: bold;
-    font-size: 24px;
+    font-size: 34px;
 }
 .TopPostindexing{
-    font-size: 40px;
+    font-size: 50px;
     width:10vw;
     height:12vh;
     color: rgb(205, 205, 219);
-    border:2px solid rgb(205, 205, 219); 
+    /* border:2px solid rgb(205, 205, 219);  */
     float:right;
 }
-.Advertisment{
+.AdvertismentBollywood img{
     display: none;
 }
 }
