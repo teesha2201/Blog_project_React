@@ -109,11 +109,12 @@
        
     }
     .HomeColoumnwise{
-        width:88vw;
+        width:100vw;
         min-height: 60vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
     } 
     .HomeimgDivlatest{
         width:83vw;
@@ -251,11 +252,12 @@
        
     }
     .HomeColoumnwise{
-        width:88vw;
+        width:100vw;
         min-height: 60vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content:center;
+        align-items: center;
     } 
     .HomeimgDivlatest{
         width:85vw;
