@@ -45,7 +45,7 @@
     .textLatest{
         position:relative;
         top: 27vh;
-        left:9vw;
+        left:0vw;
         text-align: center;
         border-bottom:3px solid rgb(177, 167, 167);
         font-size: 28px;
@@ -99,7 +99,7 @@
     .HomeparentLatest{
         width:88vw;
         min-height: auto;
-        border:2px solid red;
+        /* border:2px solid red; */
         position: relative;
         top:40vh;
         /* left: 6vw; */
