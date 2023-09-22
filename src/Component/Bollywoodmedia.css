@@ -20,7 +20,7 @@ body{
     box-sizing: border-box;
     font-weight: bold;
     text-align: left;
-    margin-left:4vw;
+    /* margin-left:4vw; */
 
 } 
 .leftParentHollywood{
@@ -45,7 +45,7 @@ body{
     
     min-height: auto;
     flex-direction: column;
-    margin-left:7vw;
+    /* margin-left:7vw; */
     
 }
 .imgHollywoodTop{
@@ -87,7 +87,9 @@ body{
     flex-direction: column;
     width:80vw;
     min-height: 40vh;
-    margin-left:4vw ;
+    justify-content: center;
+    align-items: center;
+    /* margin-left:4vw ; */
 }
  .textToppostHollywood{
     width:80vw;
@@ -147,7 +149,7 @@ body{
 }
 
 
-/*media for 668px to 1100px*/
+/*media for 668px to 1180px*/
 
 @media only screen and (min-width:668px) and (max-width:1180px) {
     
