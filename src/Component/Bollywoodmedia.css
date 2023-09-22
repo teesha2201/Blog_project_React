@@ -15,7 +15,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    width:70vw;
+    align-items: center;
+    width:100vw;
     min-height:50vh;
     box-sizing: border-box;
     font-weight: bold;
@@ -26,23 +27,25 @@ body{
 .leftParentHollywood{
     display: flex;
     flex-direction: column;
-    width:20vw;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
     
     
 }
 
 .textHollywood{
-    width:88vw;
+    width:100vw;
     height:10vh;
     text-align: center;
    
     
 }
 .leftHollywood{
-    width:78vw;
+    width:100vw;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
     min-height: auto;
     flex-direction: column;
     /* margin-left:7vw; */
@@ -56,17 +59,20 @@ body{
     
 }
 .textToppost{
-    width:50vw;
+    width:100vw;
     min-height: 20vh;
+    text-align: center;
     /* border:2px solid red; */
     display: block;
 }
+
  .divHollywood{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap:10px;
-    
+    width:100vw;
+    height:auto;
     padding-bottom: 2vh;
     border-bottom: 3px solid lightgray;
 } 
@@ -92,7 +98,8 @@ body{
     /* margin-left:4vw ; */
 }
  .textToppostHollywood{
-    width:80vw;
+    width:100vw;
+    text-align: center;
     height:10vh;
     font-size: 30px;
     font-weight: bold;
