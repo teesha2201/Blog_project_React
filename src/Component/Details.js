@@ -23,7 +23,7 @@ function Details() {
                 <div className='headingDetails'>
                     <div className='EmojiRow'>
                         <img className='circle' src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZcNNV6OAX_vD3pWSsWPxWK1jFexbwmBG8fKYhq-6VFUeGWDbUo50ys1Uv-JZBPEWSmE&usqp=CAU" alt="Not Found"/>
-                        <div className='Detailsname'>Ridh Gupta <br></br>sep 12,2023  10min read</div>
+                        <div className='Detailsname'>Teesha Gupta <br></br>sep 12,2023  10min read</div>
                     </div>
                   
                     <div className="SocialLink">
