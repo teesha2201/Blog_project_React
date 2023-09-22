@@ -100,7 +100,7 @@ li{
         width:100%;  
     }
     .titleparent{
-        width:22vw;
+        width:15vw;
         /* border:2px solid purple; */
         display: flex;
         flex-direction: row;
@@ -117,7 +117,7 @@ li{
        
     }
     .siren{
-        font-size: 22px;
+        font-size: 20px;
         color:lightcoral;
         font-family: Georgia, 'Times New Roman', Times, serif;
         
