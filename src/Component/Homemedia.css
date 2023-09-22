@@ -44,17 +44,24 @@
     
     .textLatest{
         position:relative;
-        top: 27vh;
+        top: 30vh;
         left:0vw;
-        text-align: center;
-        border-bottom:3px solid rgb(177, 167, 167);
+        width:100vw;
+        /* border:8px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 0px solid white; */
+        text-decoration: underline;
+        text-decoration-color: gray;
+        border-bottom:0px solid rgb(255, 248, 248);
         font-size: 28px;
         font-weight: bold;
     }
     .mediaParentLatest{
         width:100vw;
         min-height: auto;
-        /* border:8px solid red; */
+        border:8px solid blue;
         position: relative;
         top:30vh;
         left: 0vw;
@@ -64,11 +71,12 @@
  
     }
     .mediaColoumnwise{
-        width:84vw;
+        width:100vw;
         min-height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         /* border: 2px solid green; */
         column-gap:10px;
     }
