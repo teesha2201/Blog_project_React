@@ -2,13 +2,14 @@
 
     .mainParent{
         display:flex;
-        width: 90vw;
+        width: 100vw;
         height: auto;
-        justify-content: space-evenly;
+        justify-content:center;
+        align-items: center;
         flex-direction: column;
-        gap:30px;
+        /* gap:30px; */
         position: relative;
-        top:25vh;
+        top:20vh;
         /* left:8vw; */
         /* border:2px solid black; */
        
@@ -17,23 +18,23 @@
     .imgLeftdiv{
         width:84vw;
         height:40vh;
-        position: relative;
-        left:1vh;
+        /* position: relative; */
+        /* left:2vh; */
         
     }
     .imgRightdiv1{
 
         width:84vw;
         height:40vh;
-        position: relative;
-        left:1vh;
+        /* position: relative; */
+        /* left:2vh; */
     }
     .imgRightdiv2{
         width:84vw;
         height:40vh;
-        position: relative;
-        left:1vh;
-        top:2vh;
+        /* position: relative; */
+        /* left:2vh; */
+        /* top:2vh; */
     }
 
 
@@ -43,20 +44,23 @@
     
     .textLatest{
         position:relative;
-        top: 30vh;
-        left:6vw;
+        top: 27vh;
+        left:9vw;
+        text-align: center;
         border-bottom:3px solid rgb(177, 167, 167);
         font-size: 28px;
         font-weight: bold;
     }
     .mediaParentLatest{
-        width:88vw;
+        width:100vw;
         min-height: auto;
         /* border:8px solid red; */
         position: relative;
         top:30vh;
-        left: 4vw;
+        left: 0vw;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
  
     }
     .mediaColoumnwise{
@@ -254,8 +258,8 @@
         justify-content: space-around;
     } 
     .HomeimgDivlatest{
-        width:83vw;
-    height:40vh;
+        width:85vw;
+        height:40vh;
     /* border:2px solid black; */
     border-radius: 1% ; 
     box-shadow: 4px 4px 20px black;

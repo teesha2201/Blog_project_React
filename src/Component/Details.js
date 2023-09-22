@@ -35,7 +35,7 @@ function Details() {
                 
                 </div>
                 <img src={selectedItem.poster} alt='Not Found' className='imgDetails'/>
-                <h3 className='DetailsTitle'>{selectedItem.Movie}</h3>
+                <h4 className='DetailsTitle'>{selectedItem.Movie}</h4>
                 <p className='DetailsInfo'>{selectedItem.Heading}</p> 
             </div>
         </div>

@@ -218,13 +218,12 @@ body{
 }
 .topHollywoodTitle{
     width:60vw;
-    font-size: 34px;
+    font-size: 30px;
+    min-height: auto;
     /* text-align: center; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* position: relative;
-    left:0vw; */
+    justify-content: left;
+   
     /* border:2px solid black; */
     
 }
@@ -254,7 +253,7 @@ body{
 }
 
 .rightHollywood{
-    width:87vw;
+    width:100vw;
     min-height: 20vh;
     /* border:2px solid red; */
 }
@@ -265,15 +264,17 @@ body{
     justify-content: center;
     align-items: center;
     
-    border-bottom: 3px solid lightgray;
+    border-bottom: 0px solid lightgray;
     /* margin-bottom: 4vh; */
     width:100vw;
     
-    padding-bottom: 3vh;
+    padding-bottom: 1vh;
 }
 .imgHollyTop{
     width:70vw;
-    height:25vh;
+    height:35vh;
+    box-shadow: 4px 4px 20px rgb(45, 44, 44);
+    border-radius:2%;
     /* border:2px solid green; */
 }
 .divcoloumnHolly{
