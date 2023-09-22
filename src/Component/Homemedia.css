@@ -99,13 +99,14 @@
     .HomeparentLatest{
         width:88vw;
         min-height: auto;
-        /* border:2px solid red; */
+        border:2px solid red;
         position: relative;
         top:40vh;
         /* left: 6vw; */
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
        
     }
     .HomeColoumnwise{
