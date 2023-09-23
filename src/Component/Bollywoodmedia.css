@@ -48,6 +48,7 @@ body{
     align-items: center;
     min-height: auto;
     flex-direction: column;
+    border:3px solid red;
     /* margin-left:7vw; */
     
 }
@@ -91,10 +92,11 @@ body{
 .rightParentHollywood{
     display: flex;
     flex-direction: column;
-    width:80vw;
+    width:100vw;
     min-height: 40vh;
     justify-content: center;
     align-items: center;
+    border:3px solid black;
     /* margin-left:4vw ; */
 }
  .textToppostHollywood{

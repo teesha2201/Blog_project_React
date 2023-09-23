@@ -11,7 +11,7 @@
         position: relative;
         top:20vh;
         /* left:8vw; */
-        /* border:2px solid black; */
+        border:2px solid black;
        
     }
     
@@ -47,14 +47,15 @@
         top: 30vh;
         left:0vw;
         width:100vw;
-        /* border:8px solid red; */
+        height: 8vh;
+        border:8px solid red;
         display: flex;
         justify-content: center;
         align-items: center;
         /* border-bottom: 0px solid white; */
         text-decoration: underline;
         text-decoration-color: gray;
-        border-bottom:0px solid rgb(255, 248, 248);
+        /* border-bottom:0px solid rgb(255, 248, 248); */
         font-size: 28px;
         font-weight: bold;
     }
@@ -124,6 +125,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border:2px solid black;
     } 
     .HomeimgDivlatest{
         width:83vw;
