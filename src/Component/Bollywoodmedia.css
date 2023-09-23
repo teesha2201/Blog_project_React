@@ -72,7 +72,7 @@ body{
     flex-direction: row;
     justify-content: center;
     gap:10px;
-    width:100vw;
+    width:90vw;
     height:auto;
     padding-bottom: 2vh;
     border-bottom: 3px solid lightgray;
@@ -92,7 +92,7 @@ body{
 .rightParentHollywood{
     display: flex;
     flex-direction: column;
-    width:100vw;
+    width:90vw;
     min-height: 40vh;
     justify-content: center;
     align-items: center;
