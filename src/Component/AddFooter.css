@@ -84,18 +84,18 @@
     .rowFooter{
         overflow-x: hidden;
         padding-top: 1vh;;
-        width: 100vw;
+        width: 84vw;
         height:auto;
         display: flex;
-        gap:5px;
+        gap:0px;
         flex-direction: row;
         justify-content:center;
         /* align-items: center; */
         /* margin-bottom: 4vh; */
-        /* border: 3px solid lightgreen; */
+        border: 3px solid lightgreen;
     }
     .div1Col{
-        width:36vw;
+        width:34vw;
         height: auto;
         font-size: 12px;
         text-align: center;
@@ -109,7 +109,7 @@
     
     flex-direction: column;
 
-    gap:8px;
+    gap:5px;
     text-align: center;
     }
     .div2Col_row{

@@ -95,7 +95,7 @@ function Home() {
                     <div className='AdvertismentHome'><img src="https://media4.giphy.com/media/tfeBZQCErlj7FantMq/giphy.gif?cid=ecf05e47v29ij31o7ab275ojvc0mlqnj79wrw2hb8otgfxql&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt='Not Found' /></div>
                 </div>
             </div>
-            <span className='textLatest'>Latest Stories</span>
+            <span className='BelowtextLatest'>Latest Stories</span>
             <div className='parentLatest HomeparentLatest'>
                 {contextdata.filter((item) => item.id % 8 === 0 && item.id >= 12 && item.id <= 49).slice(0, 3).map((element, index) => {
                     return (
