@@ -4,12 +4,12 @@
    }
     .mainParent{
         display:flex;
-        width: 90vw;
+        width: 92vw;
         height: auto;
         justify-content:center;
         align-items: center;
         flex-direction: column;
-        /* gap:30px; */
+        gap:0px;
         position: relative;
         top:20vh;
         /* left:8vw; */
@@ -18,7 +18,7 @@
     }
     
     .imgLeftdiv{
-        width:84vw;
+        width:80vw;
         height:40vh;
         /* position: relative; */
         /* left:2vh; */
@@ -26,13 +26,13 @@
     }
     .imgRightdiv1{
 
-        width:84vw;
+        width:78vw;
         height:40vh;
         /* position: relative; */
         /* left:2vh; */
     }
     .imgRightdiv2{
-        width:84vw;
+        width:78vw;
         height:40vh;
         /* position: relative; */
         /* left:2vh; */
