@@ -112,7 +112,7 @@ section{
       }
     section{
         /* border:3px solid green; */
-        width:96vw;
+        width:95vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -230,9 +230,9 @@ section{
   }
 section{
     /* border:3px solid green; */
-    width:90vw;
+    width:98vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     
 }

@@ -317,7 +317,23 @@
    /* border:2px solid black; */
    padding: 2vh 0vw;
    font-size:30px;
-}
-
+    }
+    .BelowtextLatest{
+        position:relative;
+        top: 34vh;
+        left:8vw;
+        width:78vw;
+      
+        /* border:2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0px solid white;
+        text-decoration: underline;
+        text-decoration-color: gray;
+        /* border-bottom:0px solid rgb(255, 248, 248); */
+        font-size: 28px;
+        font-weight: bold;
+    }
 
 }
