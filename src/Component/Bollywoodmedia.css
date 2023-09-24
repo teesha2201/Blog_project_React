@@ -92,7 +92,8 @@
     .rightParentHollywood{
         display: flex;
         flex-direction: column;
-        width:85vw;
+        width:80vw;
+        
         min-height: 40vh;
         justify-content: center;
         align-items: center;

@@ -8,19 +8,19 @@
 
 section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* align-items: center; */
     flex-direction: row;
     /* background-color: #e9e3e3; */
     /* border: 2px solid green; */
-    width:100%;
+    width:100vw;
     height: 14vh;
     box-shadow: 4px 4px 20px  gray;
     
     
 }
 .titleparent{
-    width:25vw;
+    /* width:20vw; */
     /* border:2px solid purple; */
     display: flex;
     flex-direction: row;
@@ -53,11 +53,15 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     font-size: 30px;
     color:rgb(139, 134, 134);
     flex-direction: row;
     /* border:3px solid rgb(255, 0, 230); */
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width:auto;
+    height: 13vh;
+    /* box-shadow: 4px 4px 20px  gray; */
 }
 .navlinkres{
     display:none;
@@ -80,12 +84,13 @@ section{
 /* navbar style start */
 
 .main-nav{
-    width: 100%;
+    width: 100vw;
     height: 0rem;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     position: absolute;
     top:1vh;
+    /* border:5px solid blue; */
     
 }
 .logo{
@@ -103,31 +108,60 @@ section{
     /* position: relative; */
     /* top:0px; */
 }
+.navbar-listResponsive {
+    display: none;
+  }
+  
+  /* Style for the mobile menu icon */
+  .display {
+    cursor: pointer;
+  }
+  
 
 @media screen and (min-width:300px) and (max-width:667px){
-    body{
+    .navbar-list {
+        display: none;
+      }
+      .navbar-listResponsive {
+        display: block;
+      }
+      .display {
+        display: block;
+      }
+      /* Style for the mobile menu icon when active */
+      .hambergerlinksShows {
+        display: block;
+      }
+      .hambergerlinksHide {
+        display: none;
+      }
+  
+    /* body{
        overflow-x: hidden;
-    }
+    } */
     section{
         border:3px solid green;
-        width:85vw;
+        width:95vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         
     }
     .titleparent{
-        width:35vw;
+        width:28vw;
         height: 13vh;
         border:2px solid purple;
-        display: flex;
+        /* display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
     .The_title{
         font-size: 24px;
         writing-mode: vertical-lr;
         text-orientation:sideways;
-        width:5vw;
-        justify-content: flex-end;
+        /* width:0vw;
+        justify-content: flex-end; */
         font-family: Georgia, 'Times New Roman', Times, serif;
         border:2px solid yellow;
        
@@ -136,8 +170,8 @@ section{
         font-size: 24px;
         color:lightcoral;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
-        width:15vw;
+
+        width:18vw;
         border: 3px solid red;
         
     }
@@ -151,13 +185,13 @@ section{
     .fa-solid {
         font-size: 35px;
         display:block;  
-        width: 60vw;
+        width: 10vw;
         height: 13vh;
         border:3px solid blue;
         /* position: relative; */
         /* top:5vh; */
         display: flex;
-        justify-content:flex-end;
+        justify-content:space-around;
         align-items: center;
         
         
@@ -165,22 +199,30 @@ section{
     .navbar-listResponsive{
         width:50vw;
         height: auto;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
         border:4px solid navy;
         position: absolute;
-        top:12vh;
-        right:10vw;
+        top:14vh;
+        left:30vw;
+        /* right:15vw; */
     }
 
     .listres {
-        position: relative;
+        /* position: relative; */
         /* top:2vh; */
         display: flex;
         justify-content: center;
         flex-direction: column;
-        border:4px solid rgb(158, 77, 77);
+        border:4px solid blanchedalmond;
         list-style: none;
-        font-size: 10px;
+        font-size: 20px;
         height: auto;
+        line-height: 3vh;
+        text-decoration: none;
+
         /* width:30vw */
        
     }
@@ -201,7 +243,7 @@ section{
     .hambergerlinksHide{
        
         color:lightcoral;
-        display: hide;
+        display: none;
         justify-content: center;
         flex-direction: column;
     }
@@ -209,10 +251,10 @@ section{
     /* navbar style start */
     
     .main-nav{
-        width: 90vw;
+        width: 100vw;
         height: 0rem;
         display: flex;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
         position: absolute;
         top:1vh;
         
@@ -233,51 +275,6 @@ section{
         /* top:0px; */
     }
 }
-/* humberger*/
-
-/* ketan */
-/* .display .fa-solid {
-    display:block;
-    
-    
-}
-.display{
-    display: none;
-}
-.hambergerlinksShows{
-    display:block;
-    border:4px solid blue;
-    color:red;
-} */
-/* .hambergerlinkshide{
-    display:none; 
-}
-*/
-/* Rani */
-/* .hamburger {
-         display: block;
-      }
-      .linktag {
-             display: flex;
-             flex-direction: column;
-           }
-        
-           .linktag2 {
-             display: none;
-        
-           }
-        
-           .hambuger-title {
-             display: flex;
-             justify-content: space-between;
-             background-color: #34a5ad;
-           }
-        
-           .navbar {
-             background: none;
-           }       */
-
-
 
 @media screen and (min-width:668px) and (max-width:1180px)
 {
@@ -328,5 +325,55 @@ section{
         position: absolute;
         top:1vh;
         
-    }   
+    }  
+    .navbar-list {
+        display: none;
+      }
+      .navbar-listResponsive {
+        display: block;
+      }
+      .display {
+        display: block;
+      }
+      /* Style for the mobile menu icon when active */
+      .hambergerlinksShows {
+        display: block;
+      }
+      .hambergerlinksHide {
+        display: none;
+      }
+  
 }
+
+/*chat gpt*/
+/* Add this CSS to your styles.css or a separate CSS file */
+/* Initially hide the mobile navigation links */
+/* .navbar-listResponsive {
+    display: none;
+  } */
+  
+  /* Style for the mobile menu icon */
+  /* .display {
+    cursor: pointer;
+  } */
+  
+  /* Media query to show/hide navigation links based on screen size */
+  /* @media (max-width: 768px) {
+    .navbar-list {
+      display: none;
+    }
+    .navbar-listResponsive {
+      display: block;
+    }
+    .display {
+      display: block;
+    } */
+    /* Style for the mobile menu icon when active */
+    /* .hambergerlinksShows {
+      display: block;
+    }
+    .hambergerlinksHide {
+      display: none;
+    } 
+  }*/
+  
