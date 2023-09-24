@@ -54,6 +54,13 @@ body{
     border-bottom:3px solid rgb(177, 167, 167);
     font-size: 28px;
 }
+.BelowtextLatest{
+    position:relative;
+    top: 35vh;
+    left:6vw;
+    border-bottom:3px solid rgb(177, 167, 167);
+    font-size: 28px;
+}
 
 
 

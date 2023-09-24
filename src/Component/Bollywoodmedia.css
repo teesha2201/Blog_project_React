@@ -48,7 +48,7 @@
         align-items: center;
         min-height: auto;
         flex-direction: column;
-        border:3px solid red;
+        /* border:3px solid red; */
         /* margin-left:7vw; */
         
     }
@@ -97,11 +97,11 @@
         min-height: 40vh;
         justify-content: center;
         align-items: center;
-        border:3px solid black;
+        /* border:3px solid black; */
         /* margin-left:4vw ; */
     }
      .textToppostHollywood{
-        width:85vw;
+        width:80vw;
         text-align: center;
         height:10vh;
         font-size: 30px;
