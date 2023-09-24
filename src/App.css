@@ -3,21 +3,16 @@
     padding:0;
     box-sizing: border-box;
     /* border:3px solid yellowgreen; */
-    /* font-family: "Jost",serif; */
+    
 }
 
 section{
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     flex-direction: row;
-    /* background-color: #e9e3e3; */
-    /* border: 2px solid green; */
     width:100vw;
     height: 14vh;
-    box-shadow: 4px 4px 20px  gray;
-    
-    
+    box-shadow: 4px 4px 20px  gray;     
 }
 .titleparent{
     /* width:20vw; */
@@ -39,14 +34,20 @@ section{
 .siren{
     font-size: 40px;
     color:lightcoral;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    /* width:10%; */
-    /* border: 3px solid red; */
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 .fa-solid{
     display:none;
+}
+.navbar-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  font-size: 34px;
+  height: 14vh;
+  width:60vw;
 }
 .navlink{
     text-decoration: none;
@@ -66,18 +67,7 @@ section{
 .navlinkres{
     display:none;
 }
-.navbar-list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    /* gap:30px; */
-    /* border:10px solid rgb(192, 116, 116); */
-    list-style: none;
-    font-size: 34px;
-    height: 14vh;
-    width:60vw;
-}
+
 .listres{
     display:none;
 }
@@ -87,27 +77,12 @@ section{
     width: 100vw;
     height: 0rem;
     display: flex;
-    /* justify-content: space-evenly; */
     position: absolute;
     top:1vh;
-    /* border:5px solid blue; */
+  
     
 }
-.logo{
-    background-color: rgb(183, 165, 185);
-   
-    
-}
-.logo h2 ,.logo h2 span{
-    font-size:2.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    background-image: linear-gradient(#eee,rgb(212, 211, 224));
-    -webkit-text-fill-color: transparent;
-    /* border:3px solid green; */
-    /* position: relative; */
-    /* top:0px; */
-}
+
 .navbar-listResponsive {
     display: none;
   }
@@ -135,13 +110,9 @@ section{
       .hambergerlinksHide {
         display: none;
       }
-  
-    /* body{
-       overflow-x: hidden;
-    } */
     section{
-        border:3px solid green;
-        width:100vw;
+        /* border:3px solid green; */
+        width:96vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -150,29 +121,22 @@ section{
     .titleparent{
         width:28vw;
         height: 13vh;
-        border:2px solid purple;
-        /* display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center; */
+        /* border:2px solid purple; */
     }
     .The_title{
         font-size: 24px;
         writing-mode: vertical-lr;
         text-orientation:sideways;
-        /* width:0vw;
-        justify-content: flex-end; */
         font-family: Georgia, 'Times New Roman', Times, serif;
-        border:2px solid yellow;
+        /* border:2px solid yellow; */
        
     }
     .siren{
         font-size: 24px;
         color:lightcoral;
         font-family: Georgia, 'Times New Roman', Times, serif;
-
         width:18vw;
-        border: 3px solid red;
+        /* border: 3px solid red; */
         
     }
     .navbar-list{
@@ -188,8 +152,6 @@ section{
         width: 10vw;
         height: 13vh;
         border:3px solid blue;
-        /* position: relative; */
-        /* top:5vh; */
         display: flex;
         justify-content:space-around;
         align-items: center;
@@ -199,20 +161,13 @@ section{
     .navbar-listResponsive{
         width:50vw;
         height: auto;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-content: center; */
-        /* align-items: center; */
         border:4px solid navy;
         position: absolute;
         top:14vh;
         left:30vw;
-        /* right:15vw; */
     }
 
     .listres {
-        /* position: relative; */
-        /* top:2vh; */
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -222,30 +177,13 @@ section{
         height: auto;
         line-height: 3vh;
         text-decoration: none;
-
-        /* width:30vw */
-       
     }
     .hambergerlinksShows{
-        /* display:block; */
-        /* border:4px solid blue; */
-        color:red;
-        text-decoration: none;
-        font-size: 20px;
         opacity: 0.5;
-        background-color: aliceblue;
         text-align: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
     }
     .hambergerlinksHide{
-       
-        color:lightcoral;
         display: none;
-        justify-content: center;
-        flex-direction: column;
     }
    
     /* navbar style start */
@@ -254,126 +192,145 @@ section{
         width: 100vw;
         height: 0rem;
         display: flex;
-        /* justify-content: space-evenly; */
         position: absolute;
         top:1vh;
         
     }
-    .logo{
-        background-color: rgb(183, 165, 185);
-       
-        
+    .navlinkRes{
+      color:rgba(225, 32, 32, 0.909);
+      background-color: darkgray;
+      text-decoration: none;
+      font-size: 24px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    .logo h2 ,.logo h2 span{
-        font-size:2.5rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        background-image: linear-gradient(#eee,rgb(212, 211, 224));
-        -webkit-text-fill-color: transparent;
-        /* border:3px solid green; */
-        /* position: relative; */
-        /* top:0px; */
-    }
+  
 }
 
 @media screen and (min-width:668px) and (max-width:1180px)
 {
-    .titleparent{
-        width:20vw;
-        /* border:2px solid purple; */
-       
-    }
-    .The_title{
-        font-size: 30px;
-        
-       
-       
-        /* border:2px solid yellow; */
-       
-    }
-    .siren{
-        font-size: 24px;
-        color:lightcoral;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        /* border: 2px solid red; */
-    }
-    
-    .navlink{
-        text-decoration: none;
-        font-size:20px;
-        color:rgb(28, 27, 27);
-        flex-direction: column;
-        /* border:3px solid rgb(255, 0, 230); */
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    li{
-       
-        /* gap:30px; */
-        
-        font-size: 20px;
-        height: 13vh;
-        /* font-weight: bold; */
-    }
-    
-    /* navbar style start */
-    
-    .main-nav{
-        width: 100%;
-        height: 0rem;
-        display: flex;
-        justify-content: space-evenly;
-        position: absolute;
-        top:1vh;
-        
-    }  
-    .navbar-list {
-        display: none;
-      }
-      .navbar-listResponsive {
-        display: block;
-      }
-      .display {
-        display: block;
-      }
-      /* Style for the mobile menu icon when active */
-      .hambergerlinksShows {
-        display: block;
-      }
-      .hambergerlinksHide {
-        display: none;
-      }
   
+.navlink{
+  display:none; 
+  }
+  .navbar-list {
+    display: none;
+  }
+  .navbar-listResponsive {
+    display: block;
+  }
+  .display {
+    display: block;
+  }
+  /* Style for the mobile menu icon when active */
+  .hambergerlinksShows {
+    display: block;
+  }
+  .hambergerlinksHide {
+    display: none;
+  }
+section{
+    /* border:3px solid green; */
+    width:90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.titleparent{
+    width:28vw;
+    height: 13vh;
+    /* border:2px solid purple; */
+}
+.The_title{
+    font-size: 34px;
+    writing-mode: vertical-lr;
+    text-orientation:sideways;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border:2px solid yellow; */
+   
+}
+.siren{
+    font-size: 34px;
+    color:lightcoral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:18vw;
+    /* border: 3px solid red; */
+    
 }
 
-/*chat gpt*/
-/* Add this CSS to your styles.css or a separate CSS file */
-/* Initially hide the mobile navigation links */
-/* .navbar-listResponsive {
+
+.fa-solid {
+    font-size: 35px;
+    display:block;  
+    width: 10vw;
+    height: 13vh;
+    /* border:3px solid blue; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+}
+.navbar-listResponsive{
+    width:50vw;
+    height: auto;
+    box-shadow: 4px 4px 20px gray;
+    border-radius: 3%;
+    position: absolute;
+    top:14vh;
+    left:30vw;
+}
+
+.listres {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:4px solid lightblue;
+    list-style: none;
+    font-size: 34px;
+    height: auto;
+    line-height: 4vh;
+    text-decoration: none;
+    background-color: lightpink;
+}
+.hambergerlinksShows{
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    /* opacity: 0.9; */
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hambergerlinksHide{
+   
+    color:rgb(39, 34, 34);
     display: none;
-  } */
-  
-  /* Style for the mobile menu icon */
-  /* .display {
-    cursor: pointer;
-  } */
-  
-  /* Media query to show/hide navigation links based on screen size */
-  /* @media (max-width: 768px) {
-    .navbar-list {
-      display: none;
-    }
-    .navbar-listResponsive {
-      display: block;
-    }
-    .display {
-      display: block;
-    } */
-    /* Style for the mobile menu icon when active */
-    /* .hambergerlinksShows {
-      display: block;
-    }
-    .hambergerlinksHide {
-      display: none;
-    } 
-  }*/
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* navbar style start */
+
+.main-nav{
+    width: 100vw;
+    height: 0rem;
+    display: flex;
+    /* justify-content: space-evenly; */
+    position: absolute;
+    top:1vh;
+    
+}
+.navlinkRes{
+  color:rgb(225, 32, 32);
+  background-color: darkgray;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
   

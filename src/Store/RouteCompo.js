@@ -26,7 +26,7 @@ function RouteCompo() {
             <Route exact path="/details/:id" element={<Details />} />
           </Routes>
         </StoreContextApi>
-        {/* <div className="menu-link"> */}
+        
           <nav className="main-nav">
             <section>
               <div className="titleparent">
@@ -39,7 +39,7 @@ function RouteCompo() {
               >
                 <i className={`fa-solid ${count ? 'fa-close' : 'fa-bars'}`}></i>
               </div>
-            {/* </section> */}
+            
 
             <ul className="navbar-list">
               <li className="list">
@@ -110,7 +110,7 @@ function RouteCompo() {
               </ul>
             </div>
           </nav>
-        {/* </div> */}
+     
       </BrowserRouter>
     </>
   );
