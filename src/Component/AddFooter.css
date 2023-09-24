@@ -139,13 +139,13 @@
 
 @media screen and (min-width:668px) and (max-width:1180px){
     .containerFooter{
-        width: 100vw;
+        width: auto;
         height:auto;
         background-image: linear-gradient(145deg,rgb(188, 171, 171),rgb(141, 145, 147),rgb(173, 139, 173));
     }
     .rowFooter{
-        padding-top: 1vh;;
-        width: 100vw;
+        padding-top: 1vh;
+        width: auto;
         height:auto;
         display: flex;
         gap:10px;

@@ -282,7 +282,7 @@
        
     }
     .HomeColoumnwise{
-        width:100vw;
+        width:90vw;
         min-height: 60vh;
         display: flex;
         flex-direction: column;
