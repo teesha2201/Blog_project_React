@@ -61,7 +61,7 @@
         font-weight: bold;
     }
     .mediaParentLatest{
-        width:90vw;
+        width:100vw;
         min-height: auto;
         border:1px solid blue;
         position: relative;
@@ -70,6 +70,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin:auto;
+        padding:2vw;
  
     }
     .mediaColoumnwise{
@@ -84,7 +86,7 @@
     }
     .mediaimgDivlatest{
     
-        width:80vw;
+        width:90%;
         height:40vh;
         /* border:2px solid black; */
         border-radius: 1% ; 
