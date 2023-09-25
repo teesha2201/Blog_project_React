@@ -122,7 +122,7 @@
     .divHollywoodright{
         display: flex;
         flex-direction: row;
-        gap:5px;
+        gap:10px;
         border-bottom: 3px solid lightgray;
         padding-bottom: 4vh;
         width:80vw;
