@@ -4,7 +4,7 @@
    }
     .mainParent{
         display:flex;
-        width: 92vw;
+        width: 94vw;
         height: auto;
         justify-content:center;
         align-items: center;
@@ -62,10 +62,10 @@
         font-size: 28px;
         font-weight: bold;
     }
-    .mediaParentLatest{
+    /* .mediaParentLatest{
         width:90vw;
         min-height: auto;
-        /* border:1px solid blue; */
+        border:1px solid blue;
         position: relative;
         top:30vh;
         left: 0vw;
@@ -73,7 +73,7 @@
         justify-content: center;
         align-items: center;
  
-    }
+    } */
     .mediaColoumnwise{
         width:90vw;
         min-height: auto;

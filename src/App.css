@@ -125,8 +125,8 @@ section{
     }
     .The_title{
         font-size: 24px;
-        writing-mode: vertical-lr;
-        text-orientation:sideways;
+        /* writing-mode: vertical-lr;
+        text-orientation:sideways; */
         font-family: Georgia, 'Times New Roman', Times, serif;
         /* border:2px solid yellow; */
        
@@ -251,8 +251,8 @@ section{
 }
 .The_title{
     font-size: 34px;
-    writing-mode: vertical-lr;
-    text-orientation:sideways;
+    /* writing-mode: vertical-lr;
+    text-orientation:sideways; */
     /* border:2px solid yellow; */
    
 }

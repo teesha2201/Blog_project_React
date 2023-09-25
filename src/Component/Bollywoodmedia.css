@@ -198,6 +198,10 @@
     
     .leftHollywood{
         width:100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         
     }
     .imgHollywoodTop{
@@ -255,7 +259,7 @@
         width:90vw;
         height:10vh;
         font-size: 50px;
-        font-weight: bold;
+        font-weight: 700;
         text-align: center;
         /* border:2px solid black; */
         text-decoration: underline;
