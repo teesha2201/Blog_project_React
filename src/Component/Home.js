@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Store } from '../Store/StoreContextApi';
 import './Home.css'; // Make sure these CSS files exist
 import './Homemedia.css';
-
+import { NavLink } from 'react-router-dom';
 function Home() {
     const [contextdata] = useContext(Store);
 
@@ -40,9 +40,12 @@ function Home() {
             <div className='parentLatest mediaParentLatest'>
                 {contextdata.filter((item) => item.id % 7 === 0 && item.id >= 56 && item.id <= 70).map((element, index) => {
                     return (
+
                         <div className='divLatest mediadivLatest' key={index}>
                             <div className='Coloumnwise mediaColoumnwise'>
+                            <NavLink to={`/details/${element.id}`}>
                                 <img src={element.poster} alt="Not Found" className='imgDivlatest mediaimgDivlatest' />
+                            </NavLink>    
                                 <h3 className='imglatestheading mediaimglatestheading'>{element.Movie.slice(0, 100)}</h3>
                                 <p className='imglatestdescription medialatestdescripition'>{element.Heading.slice(0, 100)}</p>
                             </div>
@@ -58,7 +61,9 @@ function Home() {
                         {contextdata.filter((item) => item.id % 9 === 0).map((element, index) => {
                             return (
                                 <div className='divHollywood' key={index}>
+                                   <NavLink to={`/details/${element.id}`}> 
                                     <img src={element.poster} alt="Not Found" className='imgHollywoodTop' />
+                                    </NavLink>
                                     <div className='divcoloumnHollywood'>
                                         <div className='topHollywoodTitle'>{element.Movie}</div>
                                         <div className='topPostHollywood'>
@@ -79,7 +84,9 @@ function Home() {
                         {contextdata.filter((item) => item.id % 11 === 0).map((element, index) => {
                             return (
                                 <div className='divHollywoodright' key={index}>
+                                    <NavLink to={`/details/${element.id}`}> 
                                     <img src={element.poster} alt="Not Found" className='imgHollyTop' />
+                                    </NavLink>
                                     <div className='divcoloumnHolly'>
                                         <div className='topHollyTitle'>{element.Movie}
                                             <h1 className='TopPostindexing'>{index + 1}</h1>
@@ -101,7 +108,9 @@ function Home() {
                     return (
                         <div className='divLatest HomedivLatest' key={index}>
                             <div className='Coloumnwise HomeColoumnwise'>
+                            <NavLink to={`/details/${element.id}`}>
                                 <img src={element.poster} alt="Not Found" className='imgDivlatest HomeimgDivlatest' />
+                            </NavLink>    
                                 <h3 className='imglatestheading Homeimglatestheading'>{element.Movie}</h3>
                                 <p className='imglatestdescription Homeimglatestdescription'>{element.Heading.slice(0, 120)}</p>
                             </div>
