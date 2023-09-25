@@ -4,7 +4,7 @@
    }
     .mainParent{
         display:flex;
-        width: auto;
+        width: 100vw;
         height: auto;
         justify-content:center;
         align-items: center;
