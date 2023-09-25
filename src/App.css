@@ -112,7 +112,7 @@ section{
       }
     section{
         /* border:3px solid green; */
-        width:98vw;
+        width:100vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -237,7 +237,7 @@ section{
   }
 section{
     /* border:3px solid green; */
-    width:98vw;
+    width:100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
